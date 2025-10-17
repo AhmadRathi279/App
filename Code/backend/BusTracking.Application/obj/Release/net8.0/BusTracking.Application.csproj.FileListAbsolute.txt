@@ -1,0 +1,15 @@
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Application\bin\Release\net8.0\BusTracking.Application.deps.json
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Application\bin\Release\net8.0\BusTracking.Application.dll
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Application\bin\Release\net8.0\BusTracking.Application.pdb
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Application\bin\Release\net8.0\BusTracking.Core.dll
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Application\bin\Release\net8.0\BusTracking.Core.pdb
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Application\obj\Release\net8.0\BusTracking.Application.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Application\obj\Release\net8.0\BusTracking.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Application\obj\Release\net8.0\BusTracking.Application.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Application\obj\Release\net8.0\BusTracking.Application.AssemblyInfo.cs
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Application\obj\Release\net8.0\BusTracking.Application.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Application\obj\Release\net8.0\BusTrack.E403477B.Up2Date
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Application\obj\Release\net8.0\BusTracking.Application.dll
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Application\obj\Release\net8.0\refint\BusTracking.Application.dll
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Application\obj\Release\net8.0\BusTracking.Application.pdb
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Application\obj\Release\net8.0\ref\BusTracking.Application.dll

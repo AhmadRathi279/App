@@ -1,0 +1,76 @@
+C:\Users\DELL\Desktop\bus-tracking-app-main\bus-tracking-app-main\backend\BusTracking.Infrastructure\obj\Debug\net8.0\BusTracking.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\bus-tracking-app-main\bus-tracking-app-main\backend\BusTracking.Infrastructure\obj\Debug\net8.0\BusTracking.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\bus-tracking-app-main\bus-tracking-app-main\backend\BusTracking.Infrastructure\obj\Debug\net8.0\BusTracking.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\bus-tracking-app-main\bus-tracking-app-main\backend\BusTracking.Infrastructure\obj\Debug\net8.0\BusTracking.Infrastructure.AssemblyInfo.cs
+C:\Users\DELL\Desktop\bus-tracking-app-main\bus-tracking-app-main\backend\BusTracking.Infrastructure\obj\Debug\net8.0\BusTracking.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\bus-tracking-app-main\bus-tracking-app-main\backend\BusTracking.Infrastructure\bin\Debug\net8.0\BusTracking.Infrastructure.deps.json
+C:\Users\DELL\Desktop\bus-tracking-app-main\bus-tracking-app-main\backend\BusTracking.Infrastructure\bin\Debug\net8.0\BusTracking.Infrastructure.runtimeconfig.json
+C:\Users\DELL\Desktop\bus-tracking-app-main\bus-tracking-app-main\backend\BusTracking.Infrastructure\bin\Debug\net8.0\BusTracking.Infrastructure.dll
+C:\Users\DELL\Desktop\bus-tracking-app-main\bus-tracking-app-main\backend\BusTracking.Infrastructure\bin\Debug\net8.0\BusTracking.Infrastructure.pdb
+C:\Users\DELL\Desktop\bus-tracking-app-main\bus-tracking-app-main\backend\BusTracking.Infrastructure\bin\Debug\net8.0\BusTracking.Application.dll
+C:\Users\DELL\Desktop\bus-tracking-app-main\bus-tracking-app-main\backend\BusTracking.Infrastructure\bin\Debug\net8.0\BusTracking.Core.dll
+C:\Users\DELL\Desktop\bus-tracking-app-main\bus-tracking-app-main\backend\BusTracking.Infrastructure\bin\Debug\net8.0\BusTracking.Application.pdb
+C:\Users\DELL\Desktop\bus-tracking-app-main\bus-tracking-app-main\backend\BusTracking.Infrastructure\bin\Debug\net8.0\BusTracking.Core.pdb
+C:\Users\DELL\Desktop\bus-tracking-app-main\bus-tracking-app-main\backend\BusTracking.Infrastructure\obj\Debug\net8.0\BusTrack.29C65004.Up2Date
+C:\Users\DELL\Desktop\bus-tracking-app-main\bus-tracking-app-main\backend\BusTracking.Infrastructure\obj\Debug\net8.0\BusTracking.Infrastructure.dll
+C:\Users\DELL\Desktop\bus-tracking-app-main\bus-tracking-app-main\backend\BusTracking.Infrastructure\obj\Debug\net8.0\refint\BusTracking.Infrastructure.dll
+C:\Users\DELL\Desktop\bus-tracking-app-main\bus-tracking-app-main\backend\BusTracking.Infrastructure\obj\Debug\net8.0\BusTracking.Infrastructure.pdb
+C:\Users\DELL\Desktop\bus-tracking-app-main\bus-tracking-app-main\backend\BusTracking.Infrastructure\obj\Debug\net8.0\BusTracking.Infrastructure.genruntimeconfig.cache
+C:\Users\DELL\Desktop\bus-tracking-app-main\bus-tracking-app-main\backend\BusTracking.Infrastructure\obj\Debug\net8.0\ref\BusTracking.Infrastructure.dll
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Infrastructure\bin\Debug\net8.0\BusTracking.Infrastructure.deps.json
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Infrastructure\bin\Debug\net8.0\BusTracking.Infrastructure.runtimeconfig.json
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Infrastructure\bin\Debug\net8.0\BusTracking.Infrastructure.dll
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Infrastructure\bin\Debug\net8.0\BusTracking.Infrastructure.pdb
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Infrastructure\bin\Debug\net8.0\BusTracking.Application.dll
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Infrastructure\bin\Debug\net8.0\BusTracking.Core.dll
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Infrastructure\bin\Debug\net8.0\BusTracking.Application.pdb
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Infrastructure\bin\Debug\net8.0\BusTracking.Core.pdb
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Infrastructure\obj\Debug\net8.0\BusTracking.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Infrastructure\obj\Debug\net8.0\BusTracking.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Infrastructure\obj\Debug\net8.0\BusTracking.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Infrastructure\obj\Debug\net8.0\BusTracking.Infrastructure.AssemblyInfo.cs
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Infrastructure\obj\Debug\net8.0\BusTracking.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Infrastructure\obj\Debug\net8.0\BusTrack.29C65004.Up2Date
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Infrastructure\obj\Debug\net8.0\BusTracking.Infrastructure.dll
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Infrastructure\obj\Debug\net8.0\refint\BusTracking.Infrastructure.dll
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Infrastructure\obj\Debug\net8.0\BusTracking.Infrastructure.pdb
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Infrastructure\obj\Debug\net8.0\BusTracking.Infrastructure.genruntimeconfig.cache
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Infrastructure\obj\Debug\net8.0\ref\BusTracking.Infrastructure.dll
+C:\Users\DELL\Downloads\APP CODE\backend\BusTracking.Infrastructure\bin\Debug\net8.0\BusTracking.Infrastructure.deps.json
+C:\Users\DELL\Downloads\APP CODE\backend\BusTracking.Infrastructure\bin\Debug\net8.0\BusTracking.Infrastructure.runtimeconfig.json
+C:\Users\DELL\Downloads\APP CODE\backend\BusTracking.Infrastructure\bin\Debug\net8.0\BusTracking.Infrastructure.dll
+C:\Users\DELL\Downloads\APP CODE\backend\BusTracking.Infrastructure\bin\Debug\net8.0\BusTracking.Infrastructure.pdb
+C:\Users\DELL\Downloads\APP CODE\backend\BusTracking.Infrastructure\bin\Debug\net8.0\BusTracking.Application.dll
+C:\Users\DELL\Downloads\APP CODE\backend\BusTracking.Infrastructure\bin\Debug\net8.0\BusTracking.Core.dll
+C:\Users\DELL\Downloads\APP CODE\backend\BusTracking.Infrastructure\bin\Debug\net8.0\BusTracking.Application.pdb
+C:\Users\DELL\Downloads\APP CODE\backend\BusTracking.Infrastructure\bin\Debug\net8.0\BusTracking.Core.pdb
+C:\Users\DELL\Downloads\APP CODE\backend\BusTracking.Infrastructure\obj\Debug\net8.0\BusTracking.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\DELL\Downloads\APP CODE\backend\BusTracking.Infrastructure\obj\Debug\net8.0\BusTracking.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Downloads\APP CODE\backend\BusTracking.Infrastructure\obj\Debug\net8.0\BusTracking.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\DELL\Downloads\APP CODE\backend\BusTracking.Infrastructure\obj\Debug\net8.0\BusTracking.Infrastructure.AssemblyInfo.cs
+C:\Users\DELL\Downloads\APP CODE\backend\BusTracking.Infrastructure\obj\Debug\net8.0\BusTracking.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Downloads\APP CODE\backend\BusTracking.Infrastructure\obj\Debug\net8.0\BusTrack.29C65004.Up2Date
+C:\Users\DELL\Downloads\APP CODE\backend\BusTracking.Infrastructure\obj\Debug\net8.0\BusTracking.Infrastructure.dll
+C:\Users\DELL\Downloads\APP CODE\backend\BusTracking.Infrastructure\obj\Debug\net8.0\refint\BusTracking.Infrastructure.dll
+C:\Users\DELL\Downloads\APP CODE\backend\BusTracking.Infrastructure\obj\Debug\net8.0\BusTracking.Infrastructure.pdb
+C:\Users\DELL\Downloads\APP CODE\backend\BusTracking.Infrastructure\obj\Debug\net8.0\BusTracking.Infrastructure.genruntimeconfig.cache
+C:\Users\DELL\Downloads\APP CODE\backend\BusTracking.Infrastructure\obj\Debug\net8.0\ref\BusTracking.Infrastructure.dll
+C:\Users\HP\Desktop\Code\backend\BusTracking.Infrastructure\bin\Debug\net8.0\BusTracking.Infrastructure.deps.json
+C:\Users\HP\Desktop\Code\backend\BusTracking.Infrastructure\bin\Debug\net8.0\BusTracking.Infrastructure.runtimeconfig.json
+C:\Users\HP\Desktop\Code\backend\BusTracking.Infrastructure\bin\Debug\net8.0\BusTracking.Infrastructure.dll
+C:\Users\HP\Desktop\Code\backend\BusTracking.Infrastructure\bin\Debug\net8.0\BusTracking.Infrastructure.pdb
+C:\Users\HP\Desktop\Code\backend\BusTracking.Infrastructure\bin\Debug\net8.0\BusTracking.Application.dll
+C:\Users\HP\Desktop\Code\backend\BusTracking.Infrastructure\bin\Debug\net8.0\BusTracking.Core.dll
+C:\Users\HP\Desktop\Code\backend\BusTracking.Infrastructure\bin\Debug\net8.0\BusTracking.Application.pdb
+C:\Users\HP\Desktop\Code\backend\BusTracking.Infrastructure\bin\Debug\net8.0\BusTracking.Core.pdb
+C:\Users\HP\Desktop\Code\backend\BusTracking.Infrastructure\obj\Debug\net8.0\BusTracking.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\Code\backend\BusTracking.Infrastructure\obj\Debug\net8.0\BusTracking.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\Code\backend\BusTracking.Infrastructure\obj\Debug\net8.0\BusTracking.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\Code\backend\BusTracking.Infrastructure\obj\Debug\net8.0\BusTracking.Infrastructure.AssemblyInfo.cs
+C:\Users\HP\Desktop\Code\backend\BusTracking.Infrastructure\obj\Debug\net8.0\BusTracking.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Code\backend\BusTracking.Infrastructure\obj\Debug\net8.0\BusTrack.29C65004.Up2Date
+C:\Users\HP\Desktop\Code\backend\BusTracking.Infrastructure\obj\Debug\net8.0\BusTracking.Infrastructure.dll
+C:\Users\HP\Desktop\Code\backend\BusTracking.Infrastructure\obj\Debug\net8.0\refint\BusTracking.Infrastructure.dll
+C:\Users\HP\Desktop\Code\backend\BusTracking.Infrastructure\obj\Debug\net8.0\BusTracking.Infrastructure.pdb
+C:\Users\HP\Desktop\Code\backend\BusTracking.Infrastructure\obj\Debug\net8.0\BusTracking.Infrastructure.genruntimeconfig.cache
+C:\Users\HP\Desktop\Code\backend\BusTracking.Infrastructure\obj\Debug\net8.0\ref\BusTracking.Infrastructure.dll

@@ -1,0 +1,64 @@
+2025-07-13 22:04:58,854 [16] INFO  Program (null) - Authentication attempt for user: ahmadrathi77@gmail.com
+2025-07-13 22:05:00,051 [15] INFO  Program (null) - Tokens recieved: Amazon.CognitoIdentityProvider.Model.AuthenticationResultType
+2025-07-28 14:43:53,508 [7] INFO  Program (null) - Authentication attempt for user: ahmadrathi77@gmail.com
+2025-07-28 14:44:15,767 [7] INFO  Program (null) - Tokens recieved: Amazon.CognitoIdentityProvider.Model.AuthenticationResultType
+2025-07-28 14:51:35,836 [5] INFO  Program (null) - Authentication attempt for user: ahmad.mamoon50@gmail.com
+2025-07-28 14:51:36,962 [7] INFO  Program (null) - Tokens recieved: Amazon.CognitoIdentityProvider.Model.AuthenticationResultType
+2025-07-28 14:55:58,610 [15] INFO  Program (null) - Authentication attempt for user: ahmadrathi77@gmail.com
+2025-07-28 14:55:59,421 [18] INFO  Program (null) - Tokens recieved: Amazon.CognitoIdentityProvider.Model.AuthenticationResultType
+2025-07-28 14:57:01,532 [16] INFO  Program (null) - Authentication attempt for user: ahmad.mamoon50@gmail.com
+2025-07-28 14:57:06,116 [16] INFO  Program (null) - Authentication attempt for user: ahmad.mamoon50@gmail.com
+2025-07-28 14:57:06,614 [16] INFO  Program (null) - Tokens recieved: Amazon.CognitoIdentityProvider.Model.AuthenticationResultType
+2025-07-28 14:59:23,739 [18] INFO  Program (null) - Authentication attempt for user: ahmadrathi77@gmail.com
+2025-07-28 14:59:24,741 [9] INFO  Program (null) - Tokens recieved: Amazon.CognitoIdentityProvider.Model.AuthenticationResultType
+2025-07-28 15:01:16,155 [24] INFO  Program (null) - Authentication attempt for user: ahmad.mamoon50@gmail.com
+2025-07-28 15:01:17,015 [26] INFO  Program (null) - Tokens recieved: Amazon.CognitoIdentityProvider.Model.AuthenticationResultType
+2025-07-28 15:08:06,282 [37] INFO  Program (null) - Authentication attempt for user: ahmadrathi77@gmail.com
+2025-07-28 15:08:07,069 [38] INFO  Program (null) - Tokens recieved: Amazon.CognitoIdentityProvider.Model.AuthenticationResultType
+2025-07-28 15:08:42,710 [35] INFO  Program (null) - Authentication attempt for user: ahmad.mamoon50@gmail.com
+2025-07-28 15:08:43,254 [37] INFO  Program (null) - Tokens recieved: Amazon.CognitoIdentityProvider.Model.AuthenticationResultType
+2025-07-28 15:21:26,240 [60] INFO  Program (null) - Authentication attempt for user: ahmad.mamoon50@gmail.com
+2025-07-28 15:21:27,042 [61] INFO  Program (null) - Tokens recieved: Amazon.CognitoIdentityProvider.Model.AuthenticationResultType
+2025-07-28 18:36:57,881 [24] INFO  Program (null) - Authentication attempt for user: ahmad.mamoon50@gmail.com
+2025-07-28 18:36:58,708 [15] INFO  Program (null) - Tokens recieved: Amazon.CognitoIdentityProvider.Model.AuthenticationResultType
+2025-07-28 18:38:51,881 [15] INFO  Program (null) - Authentication attempt for user: ahmad.mamoon50@gmail.com
+2025-07-28 18:38:52,663 [58] INFO  Program (null) - Tokens recieved: Amazon.CognitoIdentityProvider.Model.AuthenticationResultType
+2025-07-28 18:41:02,554 [54] INFO  Program (null) - Authentication attempt for user: ahmadrathi77@gmail.com
+2025-07-28 18:41:03,449 [54] INFO  Program (null) - Tokens recieved: Amazon.CognitoIdentityProvider.Model.AuthenticationResultType
+2025-07-28 18:41:28,293 [50] INFO  Program (null) - Authentication attempt for user: ahmad.mamoon50@gmail.com
+2025-07-28 18:41:28,758 [50] INFO  Program (null) - Tokens recieved: Amazon.CognitoIdentityProvider.Model.AuthenticationResultType
+2025-07-28 18:41:45,871 [55] INFO  Program (null) - Authentication attempt for user: ahmadrathi77@gmail.com
+2025-07-28 18:41:46,385 [55] INFO  Program (null) - Tokens recieved: Amazon.CognitoIdentityProvider.Model.AuthenticationResultType
+2025-07-28 18:49:36,399 [39] INFO  Program (null) - Authentication attempt for user: ahmadrathi77@gmail.com
+2025-07-28 18:49:37,023 [35] INFO  Program (null) - Tokens recieved: Amazon.CognitoIdentityProvider.Model.AuthenticationResultType
+2025-07-28 18:49:50,980 [37] INFO  Program (null) - Authentication attempt for user: ahmad.mamoon50@gmail.com
+2025-07-28 18:49:51,494 [37] INFO  Program (null) - Tokens recieved: Amazon.CognitoIdentityProvider.Model.AuthenticationResultType
+2025-07-28 18:55:38,469 [21] INFO  Program (null) - Authentication attempt for user: ahmadrathi77@gmail.com
+2025-07-28 18:55:39,211 [16] INFO  Program (null) - Tokens recieved: Amazon.CognitoIdentityProvider.Model.AuthenticationResultType
+2025-07-28 19:00:01,430 [69] INFO  Program (null) - Authentication attempt for user: hussainmirza8877@gmail.com
+2025-07-28 19:00:27,902 [73] INFO  Program (null) - Authentication attempt for user: hussainmirza8877@gmail.com
+2025-07-28 19:00:34,207 [71] INFO  Program (null) - Authentication attempt for user: hussainmirza8877@gmail.com
+2025-07-28 19:00:40,465 [71] INFO  Program (null) - Authentication attempt for user: hussainmirza8877@gmail.com
+2025-07-28 19:01:39,862 [75] INFO  Program (null) - Authentication attempt for user: ahmadrathi77@gmail.com
+2025-07-28 19:01:40,359 [75] INFO  Program (null) - Tokens recieved: Amazon.CognitoIdentityProvider.Model.AuthenticationResultType
+2025-07-28 19:02:10,118 [72] INFO  Program (null) - Authentication attempt for user: hussainmirza8877@gmail.com
+2025-07-28 19:02:39,768 [76] INFO  Program (null) - Authentication attempt for user: hussainmirza8877@gmail.com
+2025-07-28 19:04:34,135 [78] INFO  Program (null) - Authentication attempt for user: ahmadrathi77@gmail.com
+2025-07-28 19:04:34,860 [79] INFO  Program (null) - Tokens recieved: Amazon.CognitoIdentityProvider.Model.AuthenticationResultType
+2025-07-28 19:06:05,766 [78] INFO  Program (null) - Authentication attempt for user: hussain@gmail.com
+2025-07-28 19:15:50,255 [57] INFO  Program (null) - Authentication attempt for user: ahmadrathi77@gmail.com
+2025-07-28 19:15:50,970 [74] INFO  Program (null) - Tokens recieved: Amazon.CognitoIdentityProvider.Model.AuthenticationResultType
+2025-07-28 19:17:13,265 [83] INFO  Program (null) - Authentication attempt for user: hussamalhagagi@gmail.com
+2025-07-28 19:17:13,942 [83] INFO  Program (null) - New password required for user: hussamalhagagi@gmail.com
+2025-07-28 19:17:48,200 [79] INFO  Program (null) - Set New Password request Initiated for: hussamalhagagi@gmail.com
+2025-07-28 19:17:48,810 [80] INFO  Program (null) - Token request Initiated for: hussamalhagagi@gmail.com
+2025-07-28 19:20:31,710 [75] INFO  Program (null) - Authentication attempt for user: ahmadrathi77@gmail.com
+2025-07-28 19:20:32,510 [72] INFO  Program (null) - Tokens recieved: Amazon.CognitoIdentityProvider.Model.AuthenticationResultType
+2025-07-28 19:58:40,814 [69] INFO  Program (null) - Authentication attempt for user: hussamalhagagi@gmail.com
+2025-07-28 19:58:44,701 [52] INFO  Program (null) - Authentication attempt for user: hussamalhagagi@gmail.com
+2025-07-28 19:58:47,124 [52] INFO  Program (null) - Authentication attempt for user: hussamalhagagi@gmail.com
+2025-07-28 19:58:49,990 [52] INFO  Program (null) - Authentication attempt for user: hussamalhagagi@gmail.com
+2025-07-28 19:58:52,233 [69] INFO  Program (null) - Authentication attempt for user: hussamalhagagi@gmail.com
+2025-07-28 19:59:40,354 [81] INFO  Program (null) - Authentication attempt for user: hussamalhagagi@gmail.com
+2025-07-28 19:59:59,043 [52] INFO  Program (null) - Authentication attempt for user: hussamalhagagi@gmail.com
+2025-07-28 19:59:59,631 [52] INFO  Program (null) - Tokens recieved: Amazon.CognitoIdentityProvider.Model.AuthenticationResultType

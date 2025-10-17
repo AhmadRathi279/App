@@ -1,0 +1,1278 @@
+[
+  {
+    "ContainingType": "Carevance.API.Controllers.Authentication.AuthController",
+    "Method": "Authenticate",
+    "RelativePath": "api/Auth/authenticate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "authRequest",
+        "Type": "Carevance.Core.Entities.AuthRequestCognito",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Authentication.AuthController",
+    "Method": "ChangePassword",
+    "RelativePath": "api/Auth/change-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Carevance.Core.Entities.ChangePasswordCognito",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Authentication.AuthController",
+    "Method": "ConfirmForgotPassword",
+    "RelativePath": "api/Auth/confirm-forgot-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Carevance.Core.Entities.ConfirmForgotPasswordCognito",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Authentication.AuthController",
+    "Method": "DeactivateAccount",
+    "RelativePath": "api/Auth/deactivate-account",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Carevance.Core.Entities.DeactivateUserCognito",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Authentication.AuthController",
+    "Method": "ForgotPassword",
+    "RelativePath": "api/Auth/forgot-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Carevance.Core.Entities.ForgotPasswordCognito",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Authentication.AuthController",
+    "Method": "GetUserDetails",
+    "RelativePath": "api/Auth/getdetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Authentication.AuthController",
+    "Method": "RefreshToken",
+    "RelativePath": "api/Auth/refresh-token",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "refreshTokenRequest",
+        "Type": "Carevance.Core.Entities.RefreshTokenRequestCognito",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Authentication.AuthController",
+    "Method": "SetNewPassword",
+    "RelativePath": "api/Auth/set-new-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newPasswordRequest",
+        "Type": "Carevance.Core.Entities.NewPasswordRequestCognito",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Lookup.CareManagerController",
+    "Method": "AssignCareManager",
+    "RelativePath": "api/CareManager/assign-care-manager",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Carevance.Core.Entities.PatientCM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Lookup.CareManagerController",
+    "Method": "GetAllCM",
+    "RelativePath": "api/CareManager/get-all-cm",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Lookup.CareManagerController",
+    "Method": "GetPatientsByClinic",
+    "RelativePath": "api/CareManager/get-patients-by-clinic/{clinicId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clinicId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Lookup.CareManagerController",
+    "Method": "GetPracticesWithClinics",
+    "RelativePath": "api/CareManager/practices-with-clinics",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Doctor.DoctorController",
+    "Method": "AddDoctor",
+    "RelativePath": "api/Doctor/add-doctor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "doctor",
+        "Type": "Carevance.Core.Entities.Doctors",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Doctor.DoctorController",
+    "Method": "DeleteDoctor",
+    "RelativePath": "api/Doctor/delete-doctor/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Doctor.DoctorController",
+    "Method": "GetAllDoctors",
+    "RelativePath": "api/Doctor/doctors",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Doctor.DoctorController",
+    "Method": "UpdateDoctor",
+    "RelativePath": "api/Doctor/update-doctor/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "doctor",
+        "Type": "Carevance.Core.Entities.Doctors",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Lookup.LookupController",
+    "Method": "AddAppointmentType",
+    "RelativePath": "api/Lookup/add-appointment-type",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "appointmentType",
+        "Type": "Carevance.Core.Entities.AppointmentType",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Lookup.LookupController",
+    "Method": "AddClinic",
+    "RelativePath": "api/Lookup/add-clinic",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clinic",
+        "Type": "Carevance.Core.Entities.Clinic",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Lookup.LookupController",
+    "Method": "AddClinicAlerts",
+    "RelativePath": "api/Lookup/add-clinic-vital-alert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clinicAlerts",
+        "Type": "Carevance.Core.Entities.ClinicVitalAlerts",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Lookup.LookupController",
+    "Method": "AddDeviceType",
+    "RelativePath": "api/Lookup/add-device-types",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deviceType",
+        "Type": "Carevance.Core.Entities.DeviceType",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Lookup.LookupController",
+    "Method": "AddIcdCode",
+    "RelativePath": "api/Lookup/add-icd-code",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "icdCode",
+        "Type": "Carevance.Core.Entities.ICDCode",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Lookup.LookupController",
+    "Method": "AddPracticesAlerts",
+    "RelativePath": "api/Lookup/add-practice-vital-alerts",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "practiceAlerts",
+        "Type": "Carevance.Core.Entities.PracticeVitalAlerts",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Lookup.LookupController",
+    "Method": "AddPractice",
+    "RelativePath": "api/Lookup/add-practices",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "practice",
+        "Type": "Carevance.Core.Entities.Practices",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Lookup.LookupController",
+    "Method": "AddProgram",
+    "RelativePath": "api/Lookup/add-program",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "program",
+        "Type": "Carevance.Core.Entities.Programs",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Lookup.LookupController",
+    "Method": "AddState",
+    "RelativePath": "api/Lookup/add-state",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "stateDto",
+        "Type": "Carevance.Core.Entities.States",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Lookup.LookupController",
+    "Method": "AddTwilioNumber",
+    "RelativePath": "api/Lookup/add-twilio-numbers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "twilioNum",
+        "Type": "Carevance.Core.Entities.TwilioNumber",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Lookup.LookupController",
+    "Method": "UpdateBusinessTiming",
+    "RelativePath": "api/Lookup/api/business-timing/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "startTime",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "endTime",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "startPeriod",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "endPeriod",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Lookup.LookupController",
+    "Method": "GetCurrentBusinessTimings",
+    "RelativePath": "api/Lookup/api/business-timings",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Lookup.LookupController",
+    "Method": "GetAllAppointmentTypes",
+    "RelativePath": "api/Lookup/appointment-types",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Lookup.LookupController",
+    "Method": "GetallClinicAlerts",
+    "RelativePath": "api/Lookup/clinic-vital-alerts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Lookup.LookupController",
+    "Method": "GetAllClinics",
+    "RelativePath": "api/Lookup/clinics",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Lookup.LookupController",
+    "Method": "DeleteAppointmentType",
+    "RelativePath": "api/Lookup/delete-appointment-type/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Lookup.LookupController",
+    "Method": "DeleteClinic",
+    "RelativePath": "api/Lookup/delete-clinic/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Lookup.LookupController",
+    "Method": "DeleteDeviceType",
+    "RelativePath": "api/Lookup/delete-device-type/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Lookup.LookupController",
+    "Method": "DeleteIcdCode",
+    "RelativePath": "api/Lookup/delete-icd-code/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Lookup.LookupController",
+    "Method": "RemovePractice",
+    "RelativePath": "api/Lookup/delete-practices/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Lookup.LookupController",
+    "Method": "DeleteProgram",
+    "RelativePath": "api/Lookup/delete-program/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Lookup.LookupController",
+    "Method": "DeleteState",
+    "RelativePath": "api/Lookup/delete-state/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Lookup.LookupController",
+    "Method": "DeleteTwilioNumber",
+    "RelativePath": "api/Lookup/delete-twilio-numbers/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Lookup.LookupController",
+    "Method": "GetAllDeviceTypes",
+    "RelativePath": "api/Lookup/device-types",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Lookup.LookupController",
+    "Method": "GetallIcdCodes",
+    "RelativePath": "api/Lookup/ICD-Codes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Lookup.LookupController",
+    "Method": "GetallPracticeAlerts",
+    "RelativePath": "api/Lookup/practice-vital-alerts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Lookup.LookupController",
+    "Method": "GetAllPractices",
+    "RelativePath": "api/Lookup/practices",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Lookup.LookupController",
+    "Method": "GetAllPrograms",
+    "RelativePath": "api/Lookup/programs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Lookup.LookupController",
+    "Method": "GetAllStates",
+    "RelativePath": "api/Lookup/states",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Lookup.LookupController",
+    "Method": "GetallTwilio",
+    "RelativePath": "api/Lookup/twilio-numbers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Lookup.LookupController",
+    "Method": "UpdateAppointmentType",
+    "RelativePath": "api/Lookup/update-appointment-type/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "appointmentType",
+        "Type": "Carevance.Core.Entities.AppointmentType",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Lookup.LookupController",
+    "Method": "UpdateClinicVitalAlert",
+    "RelativePath": "api/Lookup/update-clinic-vital-alert/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "clinicAlert",
+        "Type": "Carevance.Core.Entities.ClinicVitalAlerts",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Lookup.LookupController",
+    "Method": "UpdateClinic",
+    "RelativePath": "api/Lookup/update-clinic/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "clinic",
+        "Type": "Carevance.Core.Entities.Clinic",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Lookup.LookupController",
+    "Method": "UpdateDeviceType",
+    "RelativePath": "api/Lookup/update-device-type/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "deviceType",
+        "Type": "Carevance.Core.Entities.DeviceType",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Lookup.LookupController",
+    "Method": "UpdateIcdCode",
+    "RelativePath": "api/Lookup/update-icd-code/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "icdCode",
+        "Type": "Carevance.Core.Entities.ICDCode",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Lookup.LookupController",
+    "Method": "UpdatePracticeAlerts",
+    "RelativePath": "api/Lookup/update-practice-vital-alerts/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "practice_alerts",
+        "Type": "Carevance.Core.Entities.PracticeVitalAlerts",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Lookup.LookupController",
+    "Method": "EditPractice",
+    "RelativePath": "api/Lookup/update-practices/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "practice",
+        "Type": "Carevance.Core.Entities.Practices",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Lookup.LookupController",
+    "Method": "UpdateProgram",
+    "RelativePath": "api/Lookup/update-program/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "program",
+        "Type": "Carevance.Core.Entities.Programs",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Lookup.LookupController",
+    "Method": "UpdateState",
+    "RelativePath": "api/Lookup/update-state/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "stateDto",
+        "Type": "Carevance.Core.Entities.States",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Lookup.LookupController",
+    "Method": "UpdateTwilioNumber",
+    "RelativePath": "api/Lookup/update-twilio-numbers/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "twilioNum",
+        "Type": "Carevance.Core.Entities.TwilioNumber",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Permission.PermissionController",
+    "Method": "AddGroup",
+    "RelativePath": "api/Permission/add-group",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "group",
+        "Type": "Carevance.Core.Entities.Group",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Permission.PermissionController",
+    "Method": "AddGroupPermission",
+    "RelativePath": "api/Permission/add-group-permission",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "group",
+        "Type": "Carevance.Core.Entities.GroupPermission",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Permission.PermissionController",
+    "Method": "AddModule",
+    "RelativePath": "api/Permission/add-module",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "module",
+        "Type": "Carevance.Core.Entities.Module",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Permission.PermissionController",
+    "Method": "AddScreen",
+    "RelativePath": "api/Permission/add-screen",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "screen",
+        "Type": "Carevance.Core.Entities.Screen",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Permission.PermissionController",
+    "Method": "AddUserGroup",
+    "RelativePath": "api/Permission/add-user-group",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "group",
+        "Type": "Carevance.Core.Entities.UserGroup",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Permission.PermissionController",
+    "Method": "DeleteGroupPermission",
+    "RelativePath": "api/Permission/delete-group-permission/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Permission.PermissionController",
+    "Method": "DeleteGroup",
+    "RelativePath": "api/Permission/delete-group/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Permission.PermissionController",
+    "Method": "DeleteModule",
+    "RelativePath": "api/Permission/delete-module/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Permission.PermissionController",
+    "Method": "DeleteScreen",
+    "RelativePath": "api/Permission/delete-screen/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Permission.PermissionController",
+    "Method": "DeleteUserGroup",
+    "RelativePath": "api/Permission/delete-user-group/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "groupID",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Permission.PermissionController",
+    "Method": "GetAllGroupPermissions",
+    "RelativePath": "api/Permission/group-permissions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Permission.PermissionController",
+    "Method": "GetAllGroups",
+    "RelativePath": "api/Permission/groups",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Permission.PermissionController",
+    "Method": "GetAllModules",
+    "RelativePath": "api/Permission/modules",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Permission.PermissionController",
+    "Method": "GetAllScreens",
+    "RelativePath": "api/Permission/screens",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Permission.PermissionController",
+    "Method": "GetAllScreensByModuleId",
+    "RelativePath": "api/Permission/screens-by-module-id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Permission.PermissionController",
+    "Method": "UpdateGroupPermission",
+    "RelativePath": "api/Permission/update-group-permission/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "group",
+        "Type": "Carevance.Core.Entities.GroupPermission",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Permission.PermissionController",
+    "Method": "UpdateGroup",
+    "RelativePath": "api/Permission/update-group/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "group",
+        "Type": "Carevance.Core.Entities.Group",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Permission.PermissionController",
+    "Method": "UpdateModule",
+    "RelativePath": "api/Permission/update-module/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "module",
+        "Type": "Carevance.Core.Entities.Module",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Permission.PermissionController",
+    "Method": "UpdateScreen",
+    "RelativePath": "api/Permission/update-screen/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "screen",
+        "Type": "Carevance.Core.Entities.Screen",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Permission.PermissionController",
+    "Method": "GetAllUserGroups",
+    "RelativePath": "api/Permission/user-groups",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Permission.PermissionController",
+    "Method": "GetUsersByUserTypeId",
+    "RelativePath": "api/Permission/users-by-user-type-id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Users.UserController",
+    "Method": "AddUser",
+    "RelativePath": "api/User/add-user",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "Carevance.Core.Entities.DBUser",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Users.UserController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/User/delete-user/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Users.UserController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/User/update-user/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "user",
+        "Type": "Carevance.Core.Entities.DBUser",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Users.UserController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/User/users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

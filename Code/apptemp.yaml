@@ -1,0 +1,180 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: EC2 Auto Scaling Group with ALB and DynamoDB Tables (No IAM)
+
+Parameters:
+  VpcId:
+    Type: String
+    Default: vpc-014f5507a8a0dcd79
+  Subnet1:
+    Type: String
+    Default: subnet-073a1acc0110e25fc
+  Subnet2:
+    Type: String
+    Default: subnet-02c4aaa9be1daffb5
+  AmiId:
+    Type: String
+    Default: ami-005aee74be7a2d8e4
+  InstanceType:
+    Type: String
+    Default: t3.micro
+
+Resources:
+  # ==============================
+  # Security Group
+  # ==============================
+  MySecurityGroup:
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+      GroupDescription: Allow HTTP and SSH access
+      VpcId: !Ref VpcId
+      SecurityGroupIngress:
+        - IpProtocol: tcp
+          FromPort: 22
+          ToPort: 22
+          CidrIp: 0.0.0.0/0
+        - IpProtocol: tcp
+          FromPort: 80
+          ToPort: 80
+          CidrIp: 0.0.0.0/0
+      SecurityGroupEgress:
+        - IpProtocol: -1
+          FromPort: 0
+          ToPort: 0
+          CidrIp: 0.0.0.0/0
+
+  # ==============================
+  # Launch Template
+  # ==============================
+  MyLaunchTemplate:
+    Type: AWS::EC2::LaunchTemplate
+    Properties:
+      LaunchTemplateData:
+        ImageId: !Ref AmiId
+        InstanceType: !Ref InstanceType
+        SecurityGroupIds:
+          - !Ref MySecurityGroup
+        UserData:
+          Fn::Base64: |
+            #!/bin/bash
+            systemctl start nginx || true
+            systemctl start kestrel-dotnet || true
+            echo "Instance initialized" >> /var/log/user-data.log
+
+  # ==============================
+  # Target Group
+  # ==============================
+  MyTargetGroup:
+    Type: AWS::ElasticLoadBalancingV2::TargetGroup
+    Properties:
+      VpcId: !Ref VpcId
+      Protocol: HTTP
+      Port: 80
+      TargetType: instance
+      HealthCheckProtocol: HTTP
+      HealthCheckPath: /
+      Matcher:
+        HttpCode: 200
+
+  # ==============================
+  # Application Load Balancer
+  # ==============================
+  MyLoadBalancer:
+    Type: AWS::ElasticLoadBalancingV2::LoadBalancer
+    Properties:
+      Name: busapp-alb
+      Scheme: internet-facing
+      Type: application
+      Subnets:
+        - !Ref Subnet1
+        - !Ref Subnet2
+      SecurityGroups:
+        - !Ref MySecurityGroup
+
+  MyListener:
+    Type: AWS::ElasticLoadBalancingV2::Listener
+    Properties:
+      DefaultActions:
+        - Type: forward
+          TargetGroupArn: !Ref MyTargetGroup
+      LoadBalancerArn: !Ref MyLoadBalancer
+      Port: 80
+      Protocol: HTTP
+
+  # ==============================
+  # Auto Scaling Group
+  # ==============================
+  MyAutoScalingGroup:
+    Type: AWS::AutoScaling::AutoScalingGroup
+    Properties:
+      VPCZoneIdentifier:
+        - !Ref Subnet1
+        - !Ref Subnet2
+      LaunchTemplate:
+        LaunchTemplateId: !Ref MyLaunchTemplate
+        Version: !GetAtt MyLaunchTemplate.LatestVersionNumber
+      MinSize: '1'
+      MaxSize: '2'
+      DesiredCapacity: '1'
+      TargetGroupARNs:
+        - !Ref MyTargetGroup
+      Tags:
+        - Key: Name
+          Value: BusAppInstance
+          PropagateAtLaunch: true
+
+# ==============================
+  # DynamoDB Tables
+  # ==============================
+  BusesTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: Buses
+      AttributeDefinitions:
+        - AttributeName: ID
+          AttributeType: S
+      KeySchema:
+        - AttributeName: ID
+          KeyType: HASH
+      BillingMode: PAY_PER_REQUEST
+
+  CountersTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: Counters
+      AttributeDefinitions:
+        - AttributeName: counter_name
+          AttributeType: S
+      KeySchema:
+        - AttributeName: counter_name
+          KeyType: HASH
+      BillingMode: PAY_PER_REQUEST
+
+  BusLocationTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: BusLocation
+      AttributeDefinitions:
+        - AttributeName: BusID
+          AttributeType: S
+      KeySchema:
+        - AttributeName: BusID
+          KeyType: HASH
+      BillingMode: PAY_PER_REQUEST
+
+  UsersTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: Users
+      AttributeDefinitions:
+        - AttributeName: Id
+          AttributeType: S
+      KeySchema:
+        - AttributeName: Id
+          KeyType: HASH
+      BillingMode: PAY_PER_REQUEST
+
+
+Outputs:
+  LoadBalancerDNSName:
+    Description: The DNS name of the ALB
+    Value: !GetAtt MyLoadBalancer.DNSName

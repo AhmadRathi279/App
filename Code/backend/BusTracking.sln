@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DD7F231C-0344-4230-BDAB-5B1FE704B535}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{01649884-E9AB-4EFF-98CF-307F71D8EA1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carevance.Test", "Carevance.Test\Carevance.Test.csproj", "{413C8064-763C-4B28-8E6D-2E8F991B3B92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusTracking.API", "BusTracking.API\BusTracking.API.csproj", "{167A54A1-0091-49FA-BD41-E850AA4B16B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusTracking.Application", "BusTracking.Application\BusTracking.Application.csproj", "{1B2E51B7-0405-42B6-8499-04A498DAA7FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusTracking.Core", "BusTracking.Core\BusTracking.Core.csproj", "{CD0CAB58-D70E-4086-B61B-C66CA33F127A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusTracking.Infrastructure", "BusTracking.Infrastructure\BusTracking.Infrastructure.csproj", "{E3AE94DC-E5AF-4486-A7D5-A6B64BB2D9BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{413C8064-763C-4B28-8E6D-2E8F991B3B92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{413C8064-763C-4B28-8E6D-2E8F991B3B92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{413C8064-763C-4B28-8E6D-2E8F991B3B92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{413C8064-763C-4B28-8E6D-2E8F991B3B92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{167A54A1-0091-49FA-BD41-E850AA4B16B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{167A54A1-0091-49FA-BD41-E850AA4B16B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{167A54A1-0091-49FA-BD41-E850AA4B16B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{167A54A1-0091-49FA-BD41-E850AA4B16B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B2E51B7-0405-42B6-8499-04A498DAA7FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B2E51B7-0405-42B6-8499-04A498DAA7FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B2E51B7-0405-42B6-8499-04A498DAA7FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B2E51B7-0405-42B6-8499-04A498DAA7FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD0CAB58-D70E-4086-B61B-C66CA33F127A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD0CAB58-D70E-4086-B61B-C66CA33F127A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD0CAB58-D70E-4086-B61B-C66CA33F127A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD0CAB58-D70E-4086-B61B-C66CA33F127A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3AE94DC-E5AF-4486-A7D5-A6B64BB2D9BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3AE94DC-E5AF-4486-A7D5-A6B64BB2D9BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3AE94DC-E5AF-4486-A7D5-A6B64BB2D9BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3AE94DC-E5AF-4486-A7D5-A6B64BB2D9BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{413C8064-763C-4B28-8E6D-2E8F991B3B92} = {01649884-E9AB-4EFF-98CF-307F71D8EA1E}
+		{167A54A1-0091-49FA-BD41-E850AA4B16B2} = {DD7F231C-0344-4230-BDAB-5B1FE704B535}
+		{1B2E51B7-0405-42B6-8499-04A498DAA7FE} = {DD7F231C-0344-4230-BDAB-5B1FE704B535}
+		{CD0CAB58-D70E-4086-B61B-C66CA33F127A} = {DD7F231C-0344-4230-BDAB-5B1FE704B535}
+		{E3AE94DC-E5AF-4486-A7D5-A6B64BB2D9BB} = {DD7F231C-0344-4230-BDAB-5B1FE704B535}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {097D4895-B2F7-4B25-9E38-9244048AAFCF}
+	EndGlobalSection
+EndGlobal

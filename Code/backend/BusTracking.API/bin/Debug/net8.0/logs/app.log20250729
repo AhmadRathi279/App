@@ -1,0 +1,20 @@
+2025-07-29 17:10:47,334 [76] INFO  Program (null) - Authentication attempt for user: ahmadrathi77@gmail.com
+2025-07-29 17:10:48,044 [76] INFO  Program (null) - Tokens recieved: Amazon.CognitoIdentityProvider.Model.AuthenticationResultType
+2025-07-29 17:12:03,596 [25] INFO  Program (null) - Authentication attempt for user: hussamalhagagi@gmail.com
+2025-07-29 17:12:04,277 [75] INFO  Program (null) - Tokens recieved: Amazon.CognitoIdentityProvider.Model.AuthenticationResultType
+2025-07-29 17:19:54,134 [64] INFO  Program (null) - Authentication attempt for user: rolex@gmail.com
+2025-07-29 17:19:54,766 [64] INFO  Program (null) - New password required for user: rolex@gmail.com
+2025-07-29 17:20:14,970 [29] INFO  Program (null) - Set New Password request Initiated for: rolex@gmail.com
+2025-07-29 17:20:15,652 [29] INFO  Program (null) - Token request Initiated for: rolex@gmail.com
+2025-07-29 17:20:31,820 [75] INFO  Program (null) - Authentication attempt for user: rolex@gmail.com
+2025-07-29 17:20:32,233 [75] INFO  Program (null) - Tokens recieved: Amazon.CognitoIdentityProvider.Model.AuthenticationResultType
+2025-07-29 17:23:49,424 [52] INFO  Program (null) - Authentication attempt for user: rolex@gmail.com
+2025-07-29 17:23:50,141 [73] INFO  Program (null) - Tokens recieved: Amazon.CognitoIdentityProvider.Model.AuthenticationResultType
+2025-07-29 17:32:30,654 [3] INFO  Program (null) - Authentication attempt for user: rolex@gmail.com
+2025-07-29 17:32:31,310 [22] INFO  Program (null) - Tokens recieved: Amazon.CognitoIdentityProvider.Model.AuthenticationResultType
+2025-07-29 17:36:34,622 [44] INFO  Program (null) - Authentication attempt for user: rolex@gmail.com
+2025-07-29 17:36:35,311 [40] INFO  Program (null) - Tokens recieved: Amazon.CognitoIdentityProvider.Model.AuthenticationResultType
+2025-07-29 17:37:46,209 [40] INFO  Program (null) - Authentication attempt for user: rolex@gmail.com
+2025-07-29 17:37:46,850 [47] INFO  Program (null) - Tokens recieved: Amazon.CognitoIdentityProvider.Model.AuthenticationResultType
+2025-07-29 17:43:00,125 [62] INFO  Program (null) - Authentication attempt for user: rolex@gmail.com
+2025-07-29 17:43:00,841 [18] INFO  Program (null) - Tokens recieved: Amazon.CognitoIdentityProvider.Model.AuthenticationResultType

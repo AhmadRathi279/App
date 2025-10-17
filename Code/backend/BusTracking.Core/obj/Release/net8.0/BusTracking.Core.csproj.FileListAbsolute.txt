@@ -1,0 +1,12 @@
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Core\bin\Release\net8.0\BusTracking.Core.deps.json
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Core\bin\Release\net8.0\BusTracking.Core.dll
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Core\bin\Release\net8.0\BusTracking.Core.pdb
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Core\obj\Release\net8.0\BusTracking.Core.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Core\obj\Release\net8.0\BusTracking.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Core\obj\Release\net8.0\BusTracking.Core.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Core\obj\Release\net8.0\BusTracking.Core.AssemblyInfo.cs
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Core\obj\Release\net8.0\BusTracking.Core.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Core\obj\Release\net8.0\BusTracking.Core.dll
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Core\obj\Release\net8.0\refint\BusTracking.Core.dll
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Core\obj\Release\net8.0\BusTracking.Core.pdb
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Core\obj\Release\net8.0\ref\BusTracking.Core.dll

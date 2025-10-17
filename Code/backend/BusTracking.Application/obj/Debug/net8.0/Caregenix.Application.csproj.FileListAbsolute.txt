@@ -1,0 +1,15 @@
+D:\Work\CaregenixV2\Caregenix.Application\bin\Debug\net8.0\Caregenix.Application.deps.json
+D:\Work\CaregenixV2\Caregenix.Application\bin\Debug\net8.0\Caregenix.Application.dll
+D:\Work\CaregenixV2\Caregenix.Application\bin\Debug\net8.0\Caregenix.Application.pdb
+D:\Work\CaregenixV2\Caregenix.Application\bin\Debug\net8.0\Caregenix.Core.dll
+D:\Work\CaregenixV2\Caregenix.Application\bin\Debug\net8.0\Caregenix.Core.pdb
+D:\Work\CaregenixV2\Caregenix.Application\obj\Debug\net8.0\Caregenix.Application.csproj.AssemblyReference.cache
+D:\Work\CaregenixV2\Caregenix.Application\obj\Debug\net8.0\Caregenix.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\CaregenixV2\Caregenix.Application\obj\Debug\net8.0\Caregenix.Application.AssemblyInfoInputs.cache
+D:\Work\CaregenixV2\Caregenix.Application\obj\Debug\net8.0\Caregenix.Application.AssemblyInfo.cs
+D:\Work\CaregenixV2\Caregenix.Application\obj\Debug\net8.0\Caregenix.Application.csproj.CoreCompileInputs.cache
+D:\Work\CaregenixV2\Caregenix.Application\obj\Debug\net8.0\Caregeni.92953F5E.Up2Date
+D:\Work\CaregenixV2\Caregenix.Application\obj\Debug\net8.0\Caregenix.Application.dll
+D:\Work\CaregenixV2\Caregenix.Application\obj\Debug\net8.0\refint\Caregenix.Application.dll
+D:\Work\CaregenixV2\Caregenix.Application\obj\Debug\net8.0\Caregenix.Application.pdb
+D:\Work\CaregenixV2\Caregenix.Application\obj\Debug\net8.0\ref\Caregenix.Application.dll

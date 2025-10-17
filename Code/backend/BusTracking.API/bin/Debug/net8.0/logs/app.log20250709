@@ -1,0 +1,9 @@
+2025-07-09 00:54:39,236 [15] INFO  Program (null) - Authentication attempt for user: ahmadmamoon50@gmail.com
+2025-07-09 00:55:03,976 [14] INFO  Program (null) - Authentication attempt for user: ahmad.mamoon50@gmail.com
+2025-07-09 00:55:06,042 [9] INFO  Program (null) - New password required for user: ahmad.mamoon50@gmail.com
+2025-07-09 00:55:34,646 [15] INFO  Program (null) - Set New Password request Initiated for: ahmad.mamoon50@gmail.com
+2025-07-09 00:55:36,884 [21] INFO  Program (null) - Token request Initiated for: ahmad.mamoon50@gmail.com
+2025-07-09 23:55:34,130 [10] INFO  Program (null) - Authentication attempt for user: ahmadrathi77@gmail.com
+2025-07-09 23:55:39,860 [13] INFO  Program (null) - Tokens recieved: Amazon.CognitoIdentityProvider.Model.AuthenticationResultType
+2025-07-09 23:56:26,210 [16] INFO  Program (null) - Authentication attempt for user: ahmadrathi77@gmail.com
+2025-07-09 23:56:28,339 [16] INFO  Program (null) - Tokens recieved: Amazon.CognitoIdentityProvider.Model.AuthenticationResultType

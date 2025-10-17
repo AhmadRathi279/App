@@ -1,0 +1,12 @@
+D:\Work\CaregenixV2\Caregenix.Core\bin\Debug\net8.0\Caregenix.Core.deps.json
+D:\Work\CaregenixV2\Caregenix.Core\bin\Debug\net8.0\Caregenix.Core.dll
+D:\Work\CaregenixV2\Caregenix.Core\bin\Debug\net8.0\Caregenix.Core.pdb
+D:\Work\CaregenixV2\Caregenix.Core\obj\Debug\net8.0\Caregenix.Core.csproj.AssemblyReference.cache
+D:\Work\CaregenixV2\Caregenix.Core\obj\Debug\net8.0\Caregenix.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\CaregenixV2\Caregenix.Core\obj\Debug\net8.0\Caregenix.Core.AssemblyInfoInputs.cache
+D:\Work\CaregenixV2\Caregenix.Core\obj\Debug\net8.0\Caregenix.Core.AssemblyInfo.cs
+D:\Work\CaregenixV2\Caregenix.Core\obj\Debug\net8.0\Caregenix.Core.csproj.CoreCompileInputs.cache
+D:\Work\CaregenixV2\Caregenix.Core\obj\Debug\net8.0\Caregenix.Core.dll
+D:\Work\CaregenixV2\Caregenix.Core\obj\Debug\net8.0\refint\Caregenix.Core.dll
+D:\Work\CaregenixV2\Caregenix.Core\obj\Debug\net8.0\Caregenix.Core.pdb
+D:\Work\CaregenixV2\Caregenix.Core\obj\Debug\net8.0\ref\Caregenix.Core.dll

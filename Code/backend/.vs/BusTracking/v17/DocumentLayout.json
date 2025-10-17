@@ -1,0 +1,703 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\Code\\backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{167A54A1-0091-49FA-BD41-E850AA4B16B2}|BusTracking.API\\BusTracking.API.csproj|c:\\users\\hp\\desktop\\code\\backend\\bustracking.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{167A54A1-0091-49FA-BD41-E850AA4B16B2}|BusTracking.API\\BusTracking.API.csproj|solutionrelative:bustracking.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{167A54A1-0091-49FA-BD41-E850AA4B16B2}|BusTracking.API\\BusTracking.API.csproj|c:\\users\\hp\\desktop\\code\\backend\\bustracking.api\\bustracking.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{167A54A1-0091-49FA-BD41-E850AA4B16B2}|BusTracking.API\\BusTracking.API.csproj|solutionrelative:bustracking.api\\bustracking.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{167A54A1-0091-49FA-BD41-E850AA4B16B2}|BusTracking.API\\BusTracking.API.csproj|c:\\users\\hp\\desktop\\code\\backend\\bustracking.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{167A54A1-0091-49FA-BD41-E850AA4B16B2}|BusTracking.API\\BusTracking.API.csproj|solutionrelative:bustracking.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{167A54A1-0091-49FA-BD41-E850AA4B16B2}|BusTracking.API\\BusTracking.API.csproj|c:\\users\\hp\\desktop\\code\\backend\\bustracking.api\\controllers\\user\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{167A54A1-0091-49FA-BD41-E850AA4B16B2}|BusTracking.API\\BusTracking.API.csproj|solutionrelative:bustracking.api\\controllers\\user\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{167A54A1-0091-49FA-BD41-E850AA4B16B2}|BusTracking.API\\BusTracking.API.csproj|c:\\users\\hp\\desktop\\code\\backend\\bustracking.api\\controllers\\driver\\drivercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{167A54A1-0091-49FA-BD41-E850AA4B16B2}|BusTracking.API\\BusTracking.API.csproj|solutionrelative:bustracking.api\\controllers\\driver\\drivercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{167A54A1-0091-49FA-BD41-E850AA4B16B2}|BusTracking.API\\BusTracking.API.csproj|c:\\users\\hp\\desktop\\code\\backend\\bustracking.api\\controllers\\authentication\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{167A54A1-0091-49FA-BD41-E850AA4B16B2}|BusTracking.API\\BusTracking.API.csproj|solutionrelative:bustracking.api\\controllers\\authentication\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{167A54A1-0091-49FA-BD41-E850AA4B16B2}|BusTracking.API\\BusTracking.API.csproj|c:\\users\\hp\\desktop\\code\\backend\\bustracking.api\\controllers\\buses\\buscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{167A54A1-0091-49FA-BD41-E850AA4B16B2}|BusTracking.API\\BusTracking.API.csproj|solutionrelative:bustracking.api\\controllers\\buses\\buscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD0CAB58-D70E-4086-B61B-C66CA33F127A}|BusTracking.Core\\BusTracking.Core.csproj|c:\\users\\hp\\desktop\\code\\backend\\bustracking.core\\entities\\buses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD0CAB58-D70E-4086-B61B-C66CA33F127A}|BusTracking.Core\\BusTracking.Core.csproj|solutionrelative:bustracking.core\\entities\\buses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD0CAB58-D70E-4086-B61B-C66CA33F127A}|BusTracking.Core\\BusTracking.Core.csproj|c:\\users\\hp\\desktop\\code\\backend\\bustracking.core\\entities\\buswrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD0CAB58-D70E-4086-B61B-C66CA33F127A}|BusTracking.Core\\BusTracking.Core.csproj|solutionrelative:bustracking.core\\entities\\buswrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD0CAB58-D70E-4086-B61B-C66CA33F127A}|BusTracking.Core\\BusTracking.Core.csproj|c:\\users\\hp\\desktop\\code\\backend\\bustracking.core\\entities\\dbuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD0CAB58-D70E-4086-B61B-C66CA33F127A}|BusTracking.Core\\BusTracking.Core.csproj|solutionrelative:bustracking.core\\entities\\dbuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD0CAB58-D70E-4086-B61B-C66CA33F127A}|BusTracking.Core\\BusTracking.Core.csproj|c:\\users\\hp\\desktop\\code\\backend\\bustracking.core\\entities\\buslocationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD0CAB58-D70E-4086-B61B-C66CA33F127A}|BusTracking.Core\\BusTracking.Core.csproj|solutionrelative:bustracking.core\\entities\\buslocationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD0CAB58-D70E-4086-B61B-C66CA33F127A}|BusTracking.Core\\BusTracking.Core.csproj|c:\\users\\hp\\desktop\\code\\backend\\bustracking.core\\entities\\usercredentials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD0CAB58-D70E-4086-B61B-C66CA33F127A}|BusTracking.Core\\BusTracking.Core.csproj|solutionrelative:bustracking.core\\entities\\usercredentials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD0CAB58-D70E-4086-B61B-C66CA33F127A}|BusTracking.Core\\BusTracking.Core.csproj|c:\\users\\hp\\desktop\\code\\backend\\bustracking.core\\entities\\createusercognito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD0CAB58-D70E-4086-B61B-C66CA33F127A}|BusTracking.Core\\BusTracking.Core.csproj|solutionrelative:bustracking.core\\entities\\createusercognito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD0CAB58-D70E-4086-B61B-C66CA33F127A}|BusTracking.Core\\BusTracking.Core.csproj|c:\\users\\hp\\desktop\\code\\backend\\bustracking.core\\entities\\locationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD0CAB58-D70E-4086-B61B-C66CA33F127A}|BusTracking.Core\\BusTracking.Core.csproj|solutionrelative:bustracking.core\\entities\\locationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B2E51B7-0405-42B6-8499-04A498DAA7FE}|BusTracking.Application\\BusTracking.Application.csproj|c:\\users\\hp\\desktop\\code\\backend\\bustracking.application\\authentication\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B2E51B7-0405-42B6-8499-04A498DAA7FE}|BusTracking.Application\\BusTracking.Application.csproj|solutionrelative:bustracking.application\\authentication\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B2E51B7-0405-42B6-8499-04A498DAA7FE}|BusTracking.Application\\BusTracking.Application.csproj|c:\\users\\hp\\desktop\\code\\backend\\bustracking.application\\authentication\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B2E51B7-0405-42B6-8499-04A498DAA7FE}|BusTracking.Application\\BusTracking.Application.csproj|solutionrelative:bustracking.application\\authentication\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD7F231C-0344-4230-BDAB-5B1FE704B535}|src{DD7F231C-0344-4230-BDAB-5B1FE704B535}|C:\\Users\\HP\\Desktop\\Code\\backend\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{DD7F231C-0344-4230-BDAB-5B1FE704B535}|src{DD7F231C-0344-4230-BDAB-5B1FE704B535}|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3AE94DC-E5AF-4486-A7D5-A6B64BB2D9BB}|BusTracking.Infrastructure\\BusTracking.Infrastructure.csproj|c:\\users\\hp\\desktop\\code\\backend\\bustracking.infrastructure\\dbconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3AE94DC-E5AF-4486-A7D5-A6B64BB2D9BB}|BusTracking.Infrastructure\\BusTracking.Infrastructure.csproj|solutionrelative:bustracking.infrastructure\\dbconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3AE94DC-E5AF-4486-A7D5-A6B64BB2D9BB}|BusTracking.Infrastructure\\BusTracking.Infrastructure.csproj|c:\\users\\hp\\desktop\\code\\backend\\bustracking.infrastructure\\idbconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3AE94DC-E5AF-4486-A7D5-A6B64BB2D9BB}|BusTracking.Infrastructure\\BusTracking.Infrastructure.csproj|solutionrelative:bustracking.infrastructure\\idbconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3AE94DC-E5AF-4486-A7D5-A6B64BB2D9BB}|BusTracking.Infrastructure\\BusTracking.Infrastructure.csproj|c:\\users\\hp\\desktop\\code\\backend\\bustracking.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3AE94DC-E5AF-4486-A7D5-A6B64BB2D9BB}|BusTracking.Infrastructure\\BusTracking.Infrastructure.csproj|solutionrelative:bustracking.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD0CAB58-D70E-4086-B61B-C66CA33F127A}|BusTracking.Core\\BusTracking.Core.csproj|c:\\users\\hp\\desktop\\code\\backend\\bustracking.core\\entities\\resetpasswordrequestlocal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD0CAB58-D70E-4086-B61B-C66CA33F127A}|BusTracking.Core\\BusTracking.Core.csproj|solutionrelative:bustracking.core\\entities\\resetpasswordrequestlocal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD0CAB58-D70E-4086-B61B-C66CA33F127A}|BusTracking.Core\\BusTracking.Core.csproj|c:\\users\\hp\\desktop\\code\\backend\\bustracking.core\\entities\\refreshtokenrequestcognito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD0CAB58-D70E-4086-B61B-C66CA33F127A}|BusTracking.Core\\BusTracking.Core.csproj|solutionrelative:bustracking.core\\entities\\refreshtokenrequestcognito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD0CAB58-D70E-4086-B61B-C66CA33F127A}|BusTracking.Core\\BusTracking.Core.csproj|c:\\users\\hp\\desktop\\code\\backend\\bustracking.core\\entities\\newpasswordrequestcognito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD0CAB58-D70E-4086-B61B-C66CA33F127A}|BusTracking.Core\\BusTracking.Core.csproj|solutionrelative:bustracking.core\\entities\\newpasswordrequestcognito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD0CAB58-D70E-4086-B61B-C66CA33F127A}|BusTracking.Core\\BusTracking.Core.csproj|c:\\users\\hp\\desktop\\code\\backend\\bustracking.core\\entities\\forgotpasswordlocal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD0CAB58-D70E-4086-B61B-C66CA33F127A}|BusTracking.Core\\BusTracking.Core.csproj|solutionrelative:bustracking.core\\entities\\forgotpasswordlocal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD0CAB58-D70E-4086-B61B-C66CA33F127A}|BusTracking.Core\\BusTracking.Core.csproj|c:\\users\\hp\\desktop\\code\\backend\\bustracking.core\\entities\\forgotpasswordcognito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD0CAB58-D70E-4086-B61B-C66CA33F127A}|BusTracking.Core\\BusTracking.Core.csproj|solutionrelative:bustracking.core\\entities\\forgotpasswordcognito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD0CAB58-D70E-4086-B61B-C66CA33F127A}|BusTracking.Core\\BusTracking.Core.csproj|c:\\users\\hp\\desktop\\code\\backend\\bustracking.core\\entities\\forgotpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD0CAB58-D70E-4086-B61B-C66CA33F127A}|BusTracking.Core\\BusTracking.Core.csproj|solutionrelative:bustracking.core\\entities\\forgotpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD0CAB58-D70E-4086-B61B-C66CA33F127A}|BusTracking.Core\\BusTracking.Core.csproj|c:\\users\\hp\\desktop\\code\\backend\\bustracking.core\\entities\\confirmforgotpasswordcognito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD0CAB58-D70E-4086-B61B-C66CA33F127A}|BusTracking.Core\\BusTracking.Core.csproj|solutionrelative:bustracking.core\\entities\\confirmforgotpasswordcognito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD0CAB58-D70E-4086-B61B-C66CA33F127A}|BusTracking.Core\\BusTracking.Core.csproj|c:\\users\\hp\\desktop\\code\\backend\\bustracking.core\\entities\\changepasswordrequest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD0CAB58-D70E-4086-B61B-C66CA33F127A}|BusTracking.Core\\BusTracking.Core.csproj|solutionrelative:bustracking.core\\entities\\changepasswordrequest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD0CAB58-D70E-4086-B61B-C66CA33F127A}|BusTracking.Core\\BusTracking.Core.csproj|c:\\users\\hp\\desktop\\code\\backend\\bustracking.core\\entities\\changepasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD0CAB58-D70E-4086-B61B-C66CA33F127A}|BusTracking.Core\\BusTracking.Core.csproj|solutionrelative:bustracking.core\\entities\\changepasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD0CAB58-D70E-4086-B61B-C66CA33F127A}|BusTracking.Core\\BusTracking.Core.csproj|c:\\users\\hp\\desktop\\code\\backend\\bustracking.core\\entities\\changepasswordemailrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD0CAB58-D70E-4086-B61B-C66CA33F127A}|BusTracking.Core\\BusTracking.Core.csproj|solutionrelative:bustracking.core\\entities\\changepasswordemailrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD0CAB58-D70E-4086-B61B-C66CA33F127A}|BusTracking.Core\\BusTracking.Core.csproj|c:\\users\\hp\\desktop\\code\\backend\\bustracking.core\\entities\\changepasswordcognito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD0CAB58-D70E-4086-B61B-C66CA33F127A}|BusTracking.Core\\BusTracking.Core.csproj|solutionrelative:bustracking.core\\entities\\changepasswordcognito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD0CAB58-D70E-4086-B61B-C66CA33F127A}|BusTracking.Core\\BusTracking.Core.csproj|c:\\users\\hp\\desktop\\code\\backend\\bustracking.core\\entities\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD0CAB58-D70E-4086-B61B-C66CA33F127A}|BusTracking.Core\\BusTracking.Core.csproj|solutionrelative:bustracking.core\\entities\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD0CAB58-D70E-4086-B61B-C66CA33F127A}|BusTracking.Core\\BusTracking.Core.csproj|c:\\users\\hp\\desktop\\code\\backend\\bustracking.core\\entities\\authrequestcognito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD0CAB58-D70E-4086-B61B-C66CA33F127A}|BusTracking.Core\\BusTracking.Core.csproj|solutionrelative:bustracking.core\\entities\\authrequestcognito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD0CAB58-D70E-4086-B61B-C66CA33F127A}|BusTracking.Core\\BusTracking.Core.csproj|c:\\users\\hp\\desktop\\code\\backend\\bustracking.core\\entities\\authrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD0CAB58-D70E-4086-B61B-C66CA33F127A}|BusTracking.Core\\BusTracking.Core.csproj|solutionrelative:bustracking.core\\entities\\authrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B2E51B7-0405-42B6-8499-04A498DAA7FE}|BusTracking.Application\\BusTracking.Application.csproj|c:\\users\\hp\\desktop\\code\\backend\\bustracking.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B2E51B7-0405-42B6-8499-04A498DAA7FE}|BusTracking.Application\\BusTracking.Application.csproj|solutionrelative:bustracking.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B2E51B7-0405-42B6-8499-04A498DAA7FE}|BusTracking.Application\\BusTracking.Application.csproj|c:\\users\\hp\\desktop\\code\\backend\\bustracking.application\\authentication\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B2E51B7-0405-42B6-8499-04A498DAA7FE}|BusTracking.Application\\BusTracking.Application.csproj|solutionrelative:bustracking.application\\authentication\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD0CAB58-D70E-4086-B61B-C66CA33F127A}|BusTracking.Core\\BusTracking.Core.csproj|c:\\users\\hp\\desktop\\code\\backend\\bustracking.core\\entities\\authenticationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD0CAB58-D70E-4086-B61B-C66CA33F127A}|BusTracking.Core\\BusTracking.Core.csproj|solutionrelative:bustracking.core\\entities\\authenticationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3AE94DC-E5AF-4486-A7D5-A6B64BB2D9BB}|BusTracking.Infrastructure\\BusTracking.Infrastructure.csproj|c:\\users\\hp\\desktop\\code\\backend\\bustracking.infrastructure\\bustracking.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E3AE94DC-E5AF-4486-A7D5-A6B64BB2D9BB}|BusTracking.Infrastructure\\BusTracking.Infrastructure.csproj|solutionrelative:bustracking.infrastructure\\bustracking.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD0CAB58-D70E-4086-B61B-C66CA33F127A}|BusTracking.Core\\BusTracking.Core.csproj|c:\\users\\hp\\desktop\\code\\backend\\bustracking.core\\bustracking.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CD0CAB58-D70E-4086-B61B-C66CA33F127A}|BusTracking.Core\\BusTracking.Core.csproj|solutionrelative:bustracking.core\\bustracking.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B2E51B7-0405-42B6-8499-04A498DAA7FE}|BusTracking.Application\\BusTracking.Application.csproj|c:\\users\\hp\\desktop\\code\\backend\\bustracking.application\\bustracking.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1B2E51B7-0405-42B6-8499-04A498DAA7FE}|BusTracking.Application\\BusTracking.Application.csproj|solutionrelative:bustracking.application\\bustracking.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.API\\Program.cs",
+              "RelativeDocumentMoniker": "BusTracking.API\\Program.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.API\\Program.cs",
+              "RelativeToolTip": "BusTracking.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T18:40:02.151Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.API\\appsettings.json",
+              "RelativeDocumentMoniker": "BusTracking.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.API\\appsettings.json",
+              "RelativeToolTip": "BusTracking.API\\appsettings.json",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-30T20:46:26.923Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.API\\Controllers\\Authentication\\AuthController.cs",
+              "RelativeDocumentMoniker": "BusTracking.API\\Controllers\\Authentication\\AuthController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.API\\Controllers\\Authentication\\AuthController.cs",
+              "RelativeToolTip": "BusTracking.API\\Controllers\\Authentication\\AuthController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T16:56:32.546Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DriverController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.API\\Controllers\\Driver\\DriverController.cs",
+              "RelativeDocumentMoniker": "BusTracking.API\\Controllers\\Driver\\DriverController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.API\\Controllers\\Driver\\DriverController.cs",
+              "RelativeToolTip": "BusTracking.API\\Controllers\\Driver\\DriverController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAASwEEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T17:03:30.495Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.API\\Controllers\\User\\UserController.cs",
+              "RelativeDocumentMoniker": "BusTracking.API\\Controllers\\User\\UserController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.API\\Controllers\\User\\UserController.cs",
+              "RelativeToolTip": "BusTracking.API\\Controllers\\User\\UserController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAADgvxIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T17:03:36.718Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BusController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.API\\Controllers\\Buses\\BusController.cs",
+              "RelativeDocumentMoniker": "BusTracking.API\\Controllers\\Buses\\BusController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.API\\Controllers\\Buses\\BusController.cs",
+              "RelativeToolTip": "BusTracking.API\\Controllers\\Buses\\BusController.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAlwCAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T17:03:15.97Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IDbConnectionFactory.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Infrastructure\\IDbConnectionFactory.cs",
+              "RelativeDocumentMoniker": "BusTracking.Infrastructure\\IDbConnectionFactory.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Infrastructure\\IDbConnectionFactory.cs",
+              "RelativeToolTip": "BusTracking.Infrastructure\\IDbConnectionFactory.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T17:01:57.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BusTracking.API.csproj",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.API\\BusTracking.API.csproj",
+              "RelativeDocumentMoniker": "BusTracking.API\\BusTracking.API.csproj",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.API\\BusTracking.API.csproj",
+              "RelativeToolTip": "BusTracking.API\\BusTracking.API.csproj",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-13T16:55:53.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CreateUserCognito.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Core\\Entities\\CreateUserCognito.cs",
+              "RelativeDocumentMoniker": "BusTracking.Core\\Entities\\CreateUserCognito.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Core\\Entities\\CreateUserCognito.cs",
+              "RelativeToolTip": "BusTracking.Core\\Entities\\CreateUserCognito.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAYwA8AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T17:00:00.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LocationRequest.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Core\\Entities\\LocationRequest.cs",
+              "RelativeDocumentMoniker": "BusTracking.Core\\Entities\\LocationRequest.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Core\\Entities\\LocationRequest.cs",
+              "RelativeToolTip": "BusTracking.Core\\Entities\\LocationRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T17:01:00.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DBUser.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Core\\Entities\\DBUser.cs",
+              "RelativeDocumentMoniker": "BusTracking.Core\\Entities\\DBUser.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Core\\Entities\\DBUser.cs",
+              "RelativeToolTip": "BusTracking.Core\\Entities\\DBUser.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAYwBUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T17:00:03.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BusWrapper.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Core\\Entities\\BusWrapper.cs",
+              "RelativeDocumentMoniker": "BusTracking.Core\\Entities\\BusWrapper.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Core\\Entities\\BusWrapper.cs",
+              "RelativeToolTip": "BusTracking.Core\\Entities\\BusWrapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T16:59:42.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Code\\backend\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Code\\backend\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-07-13T17:14:20.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BusLocationDTO.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Core\\Entities\\BusLocationDTO.cs",
+              "RelativeDocumentMoniker": "BusTracking.Core\\Entities\\BusLocationDTO.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Core\\Entities\\BusLocationDTO.cs",
+              "RelativeToolTip": "BusTracking.Core\\Entities\\BusLocationDTO.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T12:14:46.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Buses.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Core\\Entities\\Buses.cs",
+              "RelativeDocumentMoniker": "BusTracking.Core\\Entities\\Buses.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Core\\Entities\\Buses.cs",
+              "RelativeToolTip": "BusTracking.Core\\Entities\\Buses.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T16:59:39.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserCredentials.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Core\\Entities\\UserCredentials.cs",
+              "RelativeDocumentMoniker": "BusTracking.Core\\Entities\\UserCredentials.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Core\\Entities\\UserCredentials.cs",
+              "RelativeToolTip": "BusTracking.Core\\Entities\\UserCredentials.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T17:01:14.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Application\\Authentication\\TokenService.cs",
+              "RelativeDocumentMoniker": "BusTracking.Application\\Authentication\\TokenService.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Application\\Authentication\\TokenService.cs",
+              "RelativeToolTip": "BusTracking.Application\\Authentication\\TokenService.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAABIAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T12:14:21.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Application\\Authentication\\AuthService.cs",
+              "RelativeDocumentMoniker": "BusTracking.Application\\Authentication\\AuthService.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Application\\Authentication\\AuthService.cs",
+              "RelativeToolTip": "BusTracking.Application\\Authentication\\AuthService.cs",
+              "ViewState": "AgIAAKsBAAAAAAAAAAAIwLsBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T16:58:27.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "BusTracking.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "BusTracking.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T17:01:34.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DbConnectionFactory.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Infrastructure\\DbConnectionFactory.cs",
+              "RelativeDocumentMoniker": "BusTracking.Infrastructure\\DbConnectionFactory.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Infrastructure\\DbConnectionFactory.cs",
+              "RelativeToolTip": "BusTracking.Infrastructure\\DbConnectionFactory.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T17:01:29.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ResetPasswordRequestLocal.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Core\\Entities\\ResetPasswordRequestLocal.cs",
+              "RelativeDocumentMoniker": "BusTracking.Core\\Entities\\ResetPasswordRequestLocal.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Core\\Entities\\ResetPasswordRequestLocal.cs",
+              "RelativeToolTip": "BusTracking.Core\\Entities\\ResetPasswordRequestLocal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T17:01:10.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "RefreshTokenRequestCognito.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Core\\Entities\\RefreshTokenRequestCognito.cs",
+              "RelativeDocumentMoniker": "BusTracking.Core\\Entities\\RefreshTokenRequestCognito.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Core\\Entities\\RefreshTokenRequestCognito.cs",
+              "RelativeToolTip": "BusTracking.Core\\Entities\\RefreshTokenRequestCognito.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T17:01:05.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "NewPasswordRequestCognito.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Core\\Entities\\NewPasswordRequestCognito.cs",
+              "RelativeDocumentMoniker": "BusTracking.Core\\Entities\\NewPasswordRequestCognito.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Core\\Entities\\NewPasswordRequestCognito.cs",
+              "RelativeToolTip": "BusTracking.Core\\Entities\\NewPasswordRequestCognito.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T17:01:03.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ForgotPasswordLocal.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Core\\Entities\\ForgotPasswordLocal.cs",
+              "RelativeDocumentMoniker": "BusTracking.Core\\Entities\\ForgotPasswordLocal.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Core\\Entities\\ForgotPasswordLocal.cs",
+              "RelativeToolTip": "BusTracking.Core\\Entities\\ForgotPasswordLocal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T17:00:56.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ForgotPasswordCognito.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Core\\Entities\\ForgotPasswordCognito.cs",
+              "RelativeDocumentMoniker": "BusTracking.Core\\Entities\\ForgotPasswordCognito.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Core\\Entities\\ForgotPasswordCognito.cs",
+              "RelativeToolTip": "BusTracking.Core\\Entities\\ForgotPasswordCognito.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T17:00:52.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ForgotPassword.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Core\\Entities\\ForgotPassword.cs",
+              "RelativeDocumentMoniker": "BusTracking.Core\\Entities\\ForgotPassword.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Core\\Entities\\ForgotPassword.cs",
+              "RelativeToolTip": "BusTracking.Core\\Entities\\ForgotPassword.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T17:00:49.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ConfirmForgotPasswordCognito.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Core\\Entities\\ConfirmForgotPasswordCognito.cs",
+              "RelativeDocumentMoniker": "BusTracking.Core\\Entities\\ConfirmForgotPasswordCognito.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Core\\Entities\\ConfirmForgotPasswordCognito.cs",
+              "RelativeToolTip": "BusTracking.Core\\Entities\\ConfirmForgotPasswordCognito.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T16:59:57.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ChangePasswordRequest1.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Core\\Entities\\ChangePasswordRequest1.cs",
+              "RelativeDocumentMoniker": "BusTracking.Core\\Entities\\ChangePasswordRequest1.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Core\\Entities\\ChangePasswordRequest1.cs",
+              "RelativeToolTip": "BusTracking.Core\\Entities\\ChangePasswordRequest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T16:59:54.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ChangePasswordRequest.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Core\\Entities\\ChangePasswordRequest.cs",
+              "RelativeDocumentMoniker": "BusTracking.Core\\Entities\\ChangePasswordRequest.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Core\\Entities\\ChangePasswordRequest.cs",
+              "RelativeToolTip": "BusTracking.Core\\Entities\\ChangePasswordRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T16:59:51.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ChangePasswordEmailRequest.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Core\\Entities\\ChangePasswordEmailRequest.cs",
+              "RelativeDocumentMoniker": "BusTracking.Core\\Entities\\ChangePasswordEmailRequest.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Core\\Entities\\ChangePasswordEmailRequest.cs",
+              "RelativeToolTip": "BusTracking.Core\\Entities\\ChangePasswordEmailRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T16:59:48.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ChangePasswordCognito.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Core\\Entities\\ChangePasswordCognito.cs",
+              "RelativeDocumentMoniker": "BusTracking.Core\\Entities\\ChangePasswordCognito.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Core\\Entities\\ChangePasswordCognito.cs",
+              "RelativeToolTip": "BusTracking.Core\\Entities\\ChangePasswordCognito.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T16:59:45.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AuthResponse.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Core\\Entities\\AuthResponse.cs",
+              "RelativeDocumentMoniker": "BusTracking.Core\\Entities\\AuthResponse.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Core\\Entities\\AuthResponse.cs",
+              "RelativeToolTip": "BusTracking.Core\\Entities\\AuthResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T16:59:35.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AuthRequestCognito.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Core\\Entities\\AuthRequestCognito.cs",
+              "RelativeDocumentMoniker": "BusTracking.Core\\Entities\\AuthRequestCognito.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Core\\Entities\\AuthRequestCognito.cs",
+              "RelativeToolTip": "BusTracking.Core\\Entities\\AuthRequestCognito.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T16:59:32.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "BusTracking.Application\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Application\\DependencyInjection.cs",
+              "RelativeToolTip": "BusTracking.Application\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T16:58:47.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Application\\Authentication\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "BusTracking.Application\\Authentication\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Application\\Authentication\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "BusTracking.Application\\Authentication\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T16:58:10.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AuthRequest.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Core\\Entities\\AuthRequest.cs",
+              "RelativeDocumentMoniker": "BusTracking.Core\\Entities\\AuthRequest.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Core\\Entities\\AuthRequest.cs",
+              "RelativeToolTip": "BusTracking.Core\\Entities\\AuthRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T16:58:02.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AuthenticationResult.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Core\\Entities\\AuthenticationResult.cs",
+              "RelativeDocumentMoniker": "BusTracking.Core\\Entities\\AuthenticationResult.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Core\\Entities\\AuthenticationResult.cs",
+              "RelativeToolTip": "BusTracking.Core\\Entities\\AuthenticationResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T16:57:57.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "BusTracking.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Infrastructure\\BusTracking.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "BusTracking.Infrastructure\\BusTracking.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Infrastructure\\BusTracking.Infrastructure.csproj",
+              "RelativeToolTip": "BusTracking.Infrastructure\\BusTracking.Infrastructure.csproj",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-13T16:57:09.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "BusTracking.Core.csproj",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Core\\BusTracking.Core.csproj",
+              "RelativeDocumentMoniker": "BusTracking.Core\\BusTracking.Core.csproj",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Core\\BusTracking.Core.csproj",
+              "RelativeToolTip": "BusTracking.Core\\BusTracking.Core.csproj",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-13T16:57:08.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "BusTracking.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Application\\BusTracking.Application.csproj",
+              "RelativeDocumentMoniker": "BusTracking.Application\\BusTracking.Application.csproj",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Code\\backend\\BusTracking.Application\\BusTracking.Application.csproj",
+              "RelativeToolTip": "BusTracking.Application\\BusTracking.Application.csproj",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-13T16:56:59.713Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 859,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 859,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

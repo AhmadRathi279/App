@@ -1,0 +1,198 @@
+[
+  {
+    "ContainingType": "Carevance.API.Controllers.Authentication.AuthController",
+    "Method": "Authenticate",
+    "RelativePath": "api/Auth/authenticate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "authRequest",
+        "Type": "BusTracking.Core.Entities.AuthRequestCognito",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Authentication.AuthController",
+    "Method": "ChangePassword",
+    "RelativePath": "api/Auth/change-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BusTracking.Core.Entities.ChangePasswordCognito",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Authentication.AuthController",
+    "Method": "ConfirmForgotPassword",
+    "RelativePath": "api/Auth/confirm-forgot-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BusTracking.Core.Entities.ConfirmForgotPasswordCognito",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Authentication.AuthController",
+    "Method": "ForgotPassword",
+    "RelativePath": "api/Auth/forgot-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BusTracking.Core.Entities.ForgotPasswordCognito",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Authentication.AuthController",
+    "Method": "GetUserDetails",
+    "RelativePath": "api/Auth/getdetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Authentication.AuthController",
+    "Method": "RefreshToken",
+    "RelativePath": "api/Auth/refresh-token",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "refreshTokenRequest",
+        "Type": "BusTracking.Core.Entities.RefreshTokenRequestCognito",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Authentication.AuthController",
+    "Method": "SetNewPassword",
+    "RelativePath": "api/Auth/set-new-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newPasswordRequest",
+        "Type": "BusTracking.Core.Entities.NewPasswordRequestCognito",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Bus.BusController",
+    "Method": "AddBus",
+    "RelativePath": "api/Bus/add-bus",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bus",
+        "Type": "BusTracking.Core.Entities.Buses",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Bus.BusController",
+    "Method": "GetAllBuses",
+    "RelativePath": "api/Bus/buses",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Users.DriverController",
+    "Method": "GetBusForDriver",
+    "RelativePath": "api/Driver/get-bus",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Users.DriverController",
+    "Method": "StoreLocation",
+    "RelativePath": "api/Driver/store-location",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "location",
+        "Type": "BusTracking.Core.Entities.LocationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Users.UserController",
+    "Method": "AddUser",
+    "RelativePath": "api/User/add-user",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "DBUser",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Carevance.API.Controllers.Users.UserController",
+    "Method": "GetAllBusLocations",
+    "RelativePath": "api/User/get-locations",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

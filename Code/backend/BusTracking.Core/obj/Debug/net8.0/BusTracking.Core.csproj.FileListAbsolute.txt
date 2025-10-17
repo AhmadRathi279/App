@@ -1,0 +1,48 @@
+C:\Users\DELL\Desktop\bus-tracking-app-main\bus-tracking-app-main\backend\BusTracking.Core\bin\Debug\net8.0\BusTracking.Core.deps.json
+C:\Users\DELL\Desktop\bus-tracking-app-main\bus-tracking-app-main\backend\BusTracking.Core\bin\Debug\net8.0\BusTracking.Core.dll
+C:\Users\DELL\Desktop\bus-tracking-app-main\bus-tracking-app-main\backend\BusTracking.Core\bin\Debug\net8.0\BusTracking.Core.pdb
+C:\Users\DELL\Desktop\bus-tracking-app-main\bus-tracking-app-main\backend\BusTracking.Core\obj\Debug\net8.0\BusTracking.Core.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\bus-tracking-app-main\bus-tracking-app-main\backend\BusTracking.Core\obj\Debug\net8.0\BusTracking.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\bus-tracking-app-main\bus-tracking-app-main\backend\BusTracking.Core\obj\Debug\net8.0\BusTracking.Core.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\bus-tracking-app-main\bus-tracking-app-main\backend\BusTracking.Core\obj\Debug\net8.0\BusTracking.Core.AssemblyInfo.cs
+C:\Users\DELL\Desktop\bus-tracking-app-main\bus-tracking-app-main\backend\BusTracking.Core\obj\Debug\net8.0\BusTracking.Core.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\bus-tracking-app-main\bus-tracking-app-main\backend\BusTracking.Core\obj\Debug\net8.0\BusTracking.Core.dll
+C:\Users\DELL\Desktop\bus-tracking-app-main\bus-tracking-app-main\backend\BusTracking.Core\obj\Debug\net8.0\refint\BusTracking.Core.dll
+C:\Users\DELL\Desktop\bus-tracking-app-main\bus-tracking-app-main\backend\BusTracking.Core\obj\Debug\net8.0\BusTracking.Core.pdb
+C:\Users\DELL\Desktop\bus-tracking-app-main\bus-tracking-app-main\backend\BusTracking.Core\obj\Debug\net8.0\ref\BusTracking.Core.dll
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Core\bin\Debug\net8.0\BusTracking.Core.deps.json
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Core\bin\Debug\net8.0\BusTracking.Core.dll
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Core\bin\Debug\net8.0\BusTracking.Core.pdb
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Core\obj\Debug\net8.0\BusTracking.Core.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Core\obj\Debug\net8.0\BusTracking.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Core\obj\Debug\net8.0\BusTracking.Core.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Core\obj\Debug\net8.0\BusTracking.Core.AssemblyInfo.cs
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Core\obj\Debug\net8.0\BusTracking.Core.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Core\obj\Debug\net8.0\BusTracking.Core.dll
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Core\obj\Debug\net8.0\refint\BusTracking.Core.dll
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Core\obj\Debug\net8.0\BusTracking.Core.pdb
+C:\Users\HP\Desktop\BTS COMPLETE\backend\BusTracking.Core\obj\Debug\net8.0\ref\BusTracking.Core.dll
+C:\Users\DELL\Downloads\APP CODE\backend\BusTracking.Core\bin\Debug\net8.0\BusTracking.Core.deps.json
+C:\Users\DELL\Downloads\APP CODE\backend\BusTracking.Core\bin\Debug\net8.0\BusTracking.Core.dll
+C:\Users\DELL\Downloads\APP CODE\backend\BusTracking.Core\bin\Debug\net8.0\BusTracking.Core.pdb
+C:\Users\DELL\Downloads\APP CODE\backend\BusTracking.Core\obj\Debug\net8.0\BusTracking.Core.csproj.AssemblyReference.cache
+C:\Users\DELL\Downloads\APP CODE\backend\BusTracking.Core\obj\Debug\net8.0\BusTracking.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Downloads\APP CODE\backend\BusTracking.Core\obj\Debug\net8.0\BusTracking.Core.AssemblyInfoInputs.cache
+C:\Users\DELL\Downloads\APP CODE\backend\BusTracking.Core\obj\Debug\net8.0\BusTracking.Core.AssemblyInfo.cs
+C:\Users\DELL\Downloads\APP CODE\backend\BusTracking.Core\obj\Debug\net8.0\BusTracking.Core.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Downloads\APP CODE\backend\BusTracking.Core\obj\Debug\net8.0\BusTracking.Core.dll
+C:\Users\DELL\Downloads\APP CODE\backend\BusTracking.Core\obj\Debug\net8.0\refint\BusTracking.Core.dll
+C:\Users\DELL\Downloads\APP CODE\backend\BusTracking.Core\obj\Debug\net8.0\BusTracking.Core.pdb
+C:\Users\DELL\Downloads\APP CODE\backend\BusTracking.Core\obj\Debug\net8.0\ref\BusTracking.Core.dll
+C:\Users\HP\Desktop\Code\backend\BusTracking.Core\bin\Debug\net8.0\BusTracking.Core.deps.json
+C:\Users\HP\Desktop\Code\backend\BusTracking.Core\bin\Debug\net8.0\BusTracking.Core.dll
+C:\Users\HP\Desktop\Code\backend\BusTracking.Core\bin\Debug\net8.0\BusTracking.Core.pdb
+C:\Users\HP\Desktop\Code\backend\BusTracking.Core\obj\Debug\net8.0\BusTracking.Core.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\Code\backend\BusTracking.Core\obj\Debug\net8.0\BusTracking.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\Code\backend\BusTracking.Core\obj\Debug\net8.0\BusTracking.Core.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\Code\backend\BusTracking.Core\obj\Debug\net8.0\BusTracking.Core.AssemblyInfo.cs
+C:\Users\HP\Desktop\Code\backend\BusTracking.Core\obj\Debug\net8.0\BusTracking.Core.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Code\backend\BusTracking.Core\obj\Debug\net8.0\BusTracking.Core.dll
+C:\Users\HP\Desktop\Code\backend\BusTracking.Core\obj\Debug\net8.0\refint\BusTracking.Core.dll
+C:\Users\HP\Desktop\Code\backend\BusTracking.Core\obj\Debug\net8.0\BusTracking.Core.pdb
+C:\Users\HP\Desktop\Code\backend\BusTracking.Core\obj\Debug\net8.0\ref\BusTracking.Core.dll

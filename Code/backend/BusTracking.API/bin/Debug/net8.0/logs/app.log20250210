@@ -1,0 +1,1398 @@
+2025-02-10 19:35:31,141 [15] ERROR Program (null) - An unhandled exception occurred.
+Npgsql.PostgresException (0x80004005): 42703: column u.first_name does not exist
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.<ReadMessage>g__ReadMessageSequential|49_0(NpgsqlConnector connector, Boolean async)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 434
+   at Carevance.Infrastructure.DLL.UserRepository.GetAllUsersAsync() in C:\Users\DELL\source\repos\CarevanceV2\Carevance.Infrastructure\DLL\UserRepository.cs:line 239
+   at Carevance.Application.UserModules.UserService.GetAllUsersAsync() in C:\Users\DELL\source\repos\CarevanceV2\Carevance.Application\UserModules\UserService.cs:line 62
+   at Carevance.API.Controllers.Users.UserController.GetAllUsers() in C:\Users\DELL\source\repos\CarevanceV2\Carevance.API\Controllers\Users\UserController.cs:line 24
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Carevance.API.Middleware.GlobalExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.API\Middleware\GlobalExceptionMiddleware.cs:line 23
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column u.first_name does not exist
+    Hint: Perhaps you meant to reference the column "u.firs_tname".
+    InternalPosition: 32
+    InternalQuery: SELECT 
+        u.id, 
+        u.first_name, 
+        u.last_name, 
+        u.middle_name, 
+        u.email, 
+        u.primary_contact_number, 
+        u.secondary_contact_number, 
+        u.is_active, 
+        u.created_on, 
+        u.modified_on, 
+        u.usertypeid
+    FROM auth.users u
+    Where: PL/pgSQL function auth.get_all_users() line 3 at RETURN QUERY
+    File: parse_relation.c
+    Line: 3732
+    Routine: errorMissingColumn
+2025-02-10 19:35:42,120 [5] ERROR Program (null) - An unhandled exception occurred.
+Npgsql.PostgresException (0x80004005): 42703: column u.first_name does not exist
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.<ReadMessage>g__ReadMessageSequential|49_0(NpgsqlConnector connector, Boolean async)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 434
+   at Carevance.Infrastructure.DLL.UserRepository.GetAllUsersAsync() in C:\Users\DELL\source\repos\CarevanceV2\Carevance.Infrastructure\DLL\UserRepository.cs:line 239
+   at Carevance.Application.UserModules.UserService.GetAllUsersAsync() in C:\Users\DELL\source\repos\CarevanceV2\Carevance.Application\UserModules\UserService.cs:line 62
+   at Carevance.API.Controllers.Users.UserController.GetAllUsers() in C:\Users\DELL\source\repos\CarevanceV2\Carevance.API\Controllers\Users\UserController.cs:line 24
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Carevance.API.Middleware.GlobalExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.API\Middleware\GlobalExceptionMiddleware.cs:line 23
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column u.first_name does not exist
+    Hint: Perhaps you meant to reference the column "u.firs_tname".
+    InternalPosition: 32
+    InternalQuery: SELECT 
+        u.id, 
+        u.first_name, 
+        u.last_name, 
+        u.middle_name, 
+        u.email, 
+        u.primary_contact_number, 
+        u.secondary_contact_number, 
+        u.is_active, 
+        u.created_on, 
+        u.modified_on, 
+        u.usertypeid
+    FROM auth.users u
+    Where: PL/pgSQL function auth.get_all_users() line 3 at RETURN QUERY
+    File: parse_relation.c
+    Line: 3732
+    Routine: errorMissingColumn
+2025-02-10 19:36:05,483 [9] ERROR Program (null) - An unhandled exception occurred.
+Npgsql.PostgresException (0x80004005): 42703: column u.first_name does not exist
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.<ReadMessage>g__ReadMessageSequential|49_0(NpgsqlConnector connector, Boolean async)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 434
+   at Carevance.Infrastructure.DLL.UserRepository.GetAllUsersAsync() in C:\Users\DELL\source\repos\CarevanceV2\Carevance.Infrastructure\DLL\UserRepository.cs:line 239
+   at Carevance.Application.UserModules.UserService.GetAllUsersAsync() in C:\Users\DELL\source\repos\CarevanceV2\Carevance.Application\UserModules\UserService.cs:line 62
+   at Carevance.API.Controllers.Users.UserController.GetAllUsers() in C:\Users\DELL\source\repos\CarevanceV2\Carevance.API\Controllers\Users\UserController.cs:line 24
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Carevance.API.Middleware.GlobalExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.API\Middleware\GlobalExceptionMiddleware.cs:line 23
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column u.first_name does not exist
+    Hint: Perhaps you meant to reference the column "u.firs_tname".
+    InternalPosition: 32
+    InternalQuery: SELECT 
+        u.id, 
+        u.first_name, 
+        u.last_name, 
+        u.middle_name, 
+        u.email, 
+        u.primary_contact_number, 
+        u.secondary_contact_number, 
+        u.is_active, 
+        u.created_on, 
+        u.modified_on, 
+        u.usertypeid
+    FROM auth.users u
+    Where: PL/pgSQL function auth.get_all_users() line 3 at RETURN QUERY
+    File: parse_relation.c
+    Line: 3732
+    Routine: errorMissingColumn
+2025-02-10 20:00:47,198 [9] INFO  Program (null) - Inserting doctor.
+2025-02-10 20:00:47,790 [9] ERROR Program (null) - Error inserting doctor: 42703: column "users_credential_id" of relation "doctors" does not exist
+Npgsql.PostgresException (0x80004005): 42703: column "users_credential_id" of relation "doctors" does not exist
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at Carevance.Infrastructure.DLL.DoctorRepository.InsertDoctorAsync(String firstName, String lastName, String middleName, String email, String primaryContactNumber, String secondaryContactNumber, String address, Nullable`1 isActive, Nullable`1 createdBy) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.Infrastructure\DLL\DoctorRepository.cs:line 112
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "users_credential_id" of relation "doctors" does not exist
+    InternalPosition: 359
+    InternalQuery: INSERT INTO core.doctors (
+            first_name, 
+            last_name, 
+            middle_name, 
+            email, 
+            primary_contact_number, 
+            secondary_contact_number, 
+            address, 
+            created_on, 
+            created_by, 
+            modified_on, 
+            modified_by, 
+            is_active, 
+            users_credential_id
+        )
+        VALUES (
+            p_first_name, 
+            p_last_name, 
+            p_middle_name, 
+            p_email, 
+            p_primary_contact_number, 
+            p_secondary_contact_number, 
+            p_address, 
+            COALESCE(p_created_on, NOW()), 
+            p_created_by, 
+            COALESCE(p_modified_on, NOW()), 
+            p_modified_by, 
+            p_is_active, 
+            p_users_credential_id
+        )
+    Where: PL/pgSQL function core.doctors_actions(text,bigint,character varying,character varying,character varying,character varying,character varying,character varying,text,timestamp without time zone,bigint,timestamp without time zone,bigint,boolean,bigint) line 5 at SQL statement
+    File: parse_target.c
+    Line: 1070
+    Routine: checkInsertTargets
+2025-02-10 20:00:47,998 [9] ERROR Program (null) - An unhandled exception occurred.
+Npgsql.PostgresException (0x80004005): 42703: column "users_credential_id" of relation "doctors" does not exist
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at Carevance.Infrastructure.DLL.DoctorRepository.InsertDoctorAsync(String firstName, String lastName, String middleName, String email, String primaryContactNumber, String secondaryContactNumber, String address, Nullable`1 isActive, Nullable`1 createdBy) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.Infrastructure\DLL\DoctorRepository.cs:line 112
+   at Carevance.Application.Lookup.LookupService.AddDoctorAsync(String firstName, String lastName, String middleName, String email, String primaryContactNumber, String secondaryContactNumber, String address, Nullable`1 isActive, Nullable`1 createdBy) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.Application\Lookup\LookupService.cs:line 286
+   at Carevance.API.Controllers.Lookup.LookupController.AddDoctor(Doctor doctor) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.API\Controllers\Lookup\LookupController.cs:line 488
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Carevance.API.Middleware.GlobalExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.API\Middleware\GlobalExceptionMiddleware.cs:line 23
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "users_credential_id" of relation "doctors" does not exist
+    InternalPosition: 359
+    InternalQuery: INSERT INTO core.doctors (
+            first_name, 
+            last_name, 
+            middle_name, 
+            email, 
+            primary_contact_number, 
+            secondary_contact_number, 
+            address, 
+            created_on, 
+            created_by, 
+            modified_on, 
+            modified_by, 
+            is_active, 
+            users_credential_id
+        )
+        VALUES (
+            p_first_name, 
+            p_last_name, 
+            p_middle_name, 
+            p_email, 
+            p_primary_contact_number, 
+            p_secondary_contact_number, 
+            p_address, 
+            COALESCE(p_created_on, NOW()), 
+            p_created_by, 
+            COALESCE(p_modified_on, NOW()), 
+            p_modified_by, 
+            p_is_active, 
+            p_users_credential_id
+        )
+    Where: PL/pgSQL function core.doctors_actions(text,bigint,character varying,character varying,character varying,character varying,character varying,character varying,text,timestamp without time zone,bigint,timestamp without time zone,bigint,boolean,bigint) line 5 at SQL statement
+    File: parse_target.c
+    Line: 1070
+    Routine: checkInsertTargets
+2025-02-10 20:00:54,107 [15] INFO  Program (null) - Inserting doctor.
+2025-02-10 20:01:04,824 [21] ERROR Program (null) - Error inserting doctor: 42703: column "users_credential_id" of relation "doctors" does not exist
+Npgsql.PostgresException (0x80004005): 42703: column "users_credential_id" of relation "doctors" does not exist
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at Carevance.Infrastructure.DLL.DoctorRepository.InsertDoctorAsync(String firstName, String lastName, String middleName, String email, String primaryContactNumber, String secondaryContactNumber, String address, Nullable`1 isActive, Nullable`1 createdBy) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.Infrastructure\DLL\DoctorRepository.cs:line 112
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "users_credential_id" of relation "doctors" does not exist
+    InternalPosition: 359
+    InternalQuery: INSERT INTO core.doctors (
+            first_name, 
+            last_name, 
+            middle_name, 
+            email, 
+            primary_contact_number, 
+            secondary_contact_number, 
+            address, 
+            created_on, 
+            created_by, 
+            modified_on, 
+            modified_by, 
+            is_active, 
+            users_credential_id
+        )
+        VALUES (
+            p_first_name, 
+            p_last_name, 
+            p_middle_name, 
+            p_email, 
+            p_primary_contact_number, 
+            p_secondary_contact_number, 
+            p_address, 
+            COALESCE(p_created_on, NOW()), 
+            p_created_by, 
+            COALESCE(p_modified_on, NOW()), 
+            p_modified_by, 
+            p_is_active, 
+            p_users_credential_id
+        )
+    Where: PL/pgSQL function core.doctors_actions(text,bigint,character varying,character varying,character varying,character varying,character varying,character varying,text,timestamp without time zone,bigint,timestamp without time zone,bigint,boolean,bigint) line 5 at SQL statement
+    File: parse_target.c
+    Line: 1070
+    Routine: checkInsertTargets
+2025-02-10 20:01:04,952 [21] ERROR Program (null) - An unhandled exception occurred.
+Npgsql.PostgresException (0x80004005): 42703: column "users_credential_id" of relation "doctors" does not exist
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at Carevance.Infrastructure.DLL.DoctorRepository.InsertDoctorAsync(String firstName, String lastName, String middleName, String email, String primaryContactNumber, String secondaryContactNumber, String address, Nullable`1 isActive, Nullable`1 createdBy) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.Infrastructure\DLL\DoctorRepository.cs:line 112
+   at Carevance.Application.Lookup.LookupService.AddDoctorAsync(String firstName, String lastName, String middleName, String email, String primaryContactNumber, String secondaryContactNumber, String address, Nullable`1 isActive, Nullable`1 createdBy) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.Application\Lookup\LookupService.cs:line 286
+   at Carevance.API.Controllers.Lookup.LookupController.AddDoctor(Doctor doctor) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.API\Controllers\Lookup\LookupController.cs:line 488
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Carevance.API.Middleware.GlobalExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.API\Middleware\GlobalExceptionMiddleware.cs:line 23
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "users_credential_id" of relation "doctors" does not exist
+    InternalPosition: 359
+    InternalQuery: INSERT INTO core.doctors (
+            first_name, 
+            last_name, 
+            middle_name, 
+            email, 
+            primary_contact_number, 
+            secondary_contact_number, 
+            address, 
+            created_on, 
+            created_by, 
+            modified_on, 
+            modified_by, 
+            is_active, 
+            users_credential_id
+        )
+        VALUES (
+            p_first_name, 
+            p_last_name, 
+            p_middle_name, 
+            p_email, 
+            p_primary_contact_number, 
+            p_secondary_contact_number, 
+            p_address, 
+            COALESCE(p_created_on, NOW()), 
+            p_created_by, 
+            COALESCE(p_modified_on, NOW()), 
+            p_modified_by, 
+            p_is_active, 
+            p_users_credential_id
+        )
+    Where: PL/pgSQL function core.doctors_actions(text,bigint,character varying,character varying,character varying,character varying,character varying,character varying,text,timestamp without time zone,bigint,timestamp without time zone,bigint,boolean,bigint) line 5 at SQL statement
+    File: parse_target.c
+    Line: 1070
+    Routine: checkInsertTargets
+2025-02-10 20:02:44,671 [20] INFO  Program (null) - Inserting doctor.
+2025-02-10 20:02:44,731 [19] ERROR Program (null) - Error inserting doctor: 42725: procedure core.doctors_actions(text, bigint, character varying, text, text, text, text, text, text, timestamp without time zone, bigint, timestamp without time zone, bigint, boolean) is not unique
+
+POSITION: 6
+Npgsql.PostgresException (0x80004005): 42725: procedure core.doctors_actions(text, bigint, character varying, text, text, text, text, text, text, timestamp without time zone, bigint, timestamp without time zone, bigint, boolean) is not unique
+
+POSITION: 6
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at Carevance.Infrastructure.DLL.DoctorRepository.InsertDoctorAsync(String firstName, String lastName, String middleName, String email, String primaryContactNumber, String secondaryContactNumber, String address, Nullable`1 isActive, Nullable`1 createdBy) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.Infrastructure\DLL\DoctorRepository.cs:line 112
+  Exception data:
+    Severity: ERROR
+    SqlState: 42725
+    MessageText: procedure core.doctors_actions(text, bigint, character varying, text, text, text, text, text, text, timestamp without time zone, bigint, timestamp without time zone, bigint, boolean) is not unique
+    Hint: Could not choose a best candidate procedure. You might need to add explicit type casts.
+    Position: 6
+    File: parse_func.c
+    Line: 568
+    Routine: ParseFuncOrColumn
+2025-02-10 20:02:44,956 [19] ERROR Program (null) - An unhandled exception occurred.
+Npgsql.PostgresException (0x80004005): 42725: procedure core.doctors_actions(text, bigint, character varying, text, text, text, text, text, text, timestamp without time zone, bigint, timestamp without time zone, bigint, boolean) is not unique
+
+POSITION: 6
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at Carevance.Infrastructure.DLL.DoctorRepository.InsertDoctorAsync(String firstName, String lastName, String middleName, String email, String primaryContactNumber, String secondaryContactNumber, String address, Nullable`1 isActive, Nullable`1 createdBy) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.Infrastructure\DLL\DoctorRepository.cs:line 112
+   at Carevance.Application.Lookup.LookupService.AddDoctorAsync(String firstName, String lastName, String middleName, String email, String primaryContactNumber, String secondaryContactNumber, String address, Nullable`1 isActive, Nullable`1 createdBy) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.Application\Lookup\LookupService.cs:line 286
+   at Carevance.API.Controllers.Lookup.LookupController.AddDoctor(Doctor doctor) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.API\Controllers\Lookup\LookupController.cs:line 488
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Carevance.API.Middleware.GlobalExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.API\Middleware\GlobalExceptionMiddleware.cs:line 23
+  Exception data:
+    Severity: ERROR
+    SqlState: 42725
+    MessageText: procedure core.doctors_actions(text, bigint, character varying, text, text, text, text, text, text, timestamp without time zone, bigint, timestamp without time zone, bigint, boolean) is not unique
+    Hint: Could not choose a best candidate procedure. You might need to add explicit type casts.
+    Position: 6
+    File: parse_func.c
+    Line: 568
+    Routine: ParseFuncOrColumn
+2025-02-10 20:02:53,892 [19] INFO  Program (null) - Inserting doctor.
+2025-02-10 20:03:08,837 [23] ERROR Program (null) - Error inserting doctor: 42725: procedure core.doctors_actions(text, bigint, character varying, text, text, text, text, text, text, timestamp without time zone, bigint, timestamp without time zone, bigint, boolean) is not unique
+
+POSITION: 6
+Npgsql.PostgresException (0x80004005): 42725: procedure core.doctors_actions(text, bigint, character varying, text, text, text, text, text, text, timestamp without time zone, bigint, timestamp without time zone, bigint, boolean) is not unique
+
+POSITION: 6
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at Carevance.Infrastructure.DLL.DoctorRepository.InsertDoctorAsync(String firstName, String lastName, String middleName, String email, String primaryContactNumber, String secondaryContactNumber, String address, Nullable`1 isActive, Nullable`1 createdBy) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.Infrastructure\DLL\DoctorRepository.cs:line 112
+  Exception data:
+    Severity: ERROR
+    SqlState: 42725
+    MessageText: procedure core.doctors_actions(text, bigint, character varying, text, text, text, text, text, text, timestamp without time zone, bigint, timestamp without time zone, bigint, boolean) is not unique
+    Hint: Could not choose a best candidate procedure. You might need to add explicit type casts.
+    Position: 6
+    File: parse_func.c
+    Line: 568
+    Routine: ParseFuncOrColumn
+2025-02-10 20:03:08,957 [23] ERROR Program (null) - An unhandled exception occurred.
+Npgsql.PostgresException (0x80004005): 42725: procedure core.doctors_actions(text, bigint, character varying, text, text, text, text, text, text, timestamp without time zone, bigint, timestamp without time zone, bigint, boolean) is not unique
+
+POSITION: 6
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at Carevance.Infrastructure.DLL.DoctorRepository.InsertDoctorAsync(String firstName, String lastName, String middleName, String email, String primaryContactNumber, String secondaryContactNumber, String address, Nullable`1 isActive, Nullable`1 createdBy) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.Infrastructure\DLL\DoctorRepository.cs:line 112
+   at Carevance.Application.Lookup.LookupService.AddDoctorAsync(String firstName, String lastName, String middleName, String email, String primaryContactNumber, String secondaryContactNumber, String address, Nullable`1 isActive, Nullable`1 createdBy) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.Application\Lookup\LookupService.cs:line 286
+   at Carevance.API.Controllers.Lookup.LookupController.AddDoctor(Doctor doctor) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.API\Controllers\Lookup\LookupController.cs:line 488
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Carevance.API.Middleware.GlobalExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.API\Middleware\GlobalExceptionMiddleware.cs:line 23
+  Exception data:
+    Severity: ERROR
+    SqlState: 42725
+    MessageText: procedure core.doctors_actions(text, bigint, character varying, text, text, text, text, text, text, timestamp without time zone, bigint, timestamp without time zone, bigint, boolean) is not unique
+    Hint: Could not choose a best candidate procedure. You might need to add explicit type casts.
+    Position: 6
+    File: parse_func.c
+    Line: 568
+    Routine: ParseFuncOrColumn
+2025-02-10 20:04:15,621 [23] INFO  Program (null) - Inserting doctor.
+2025-02-10 20:04:15,689 [19] INFO  Program (null) - Doctor Inserted Successfully
+2025-02-10 20:05:05,730 [9] INFO  Program (null) - Updating doctor.
+2025-02-10 20:05:05,800 [3] ERROR Program (null) - Error updating doctor: 42883: procedure core.doctors_actions(text, bigint, text, text, text, text, text, text, text, boolean, unknown, unknown, timestamp with time zone, bigint) does not exist
+
+POSITION: 6
+Npgsql.PostgresException (0x80004005): 42883: procedure core.doctors_actions(text, bigint, text, text, text, text, text, text, text, boolean, unknown, unknown, timestamp with time zone, bigint) does not exist
+
+POSITION: 6
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at Carevance.Infrastructure.DLL.DoctorRepository.UpdateDoctorAsync(Int64 id, String firstName, String lastName, String middleName, String email, String primaryContactNumber, String secondaryContactNumber, String address, Nullable`1 isActive, Nullable`1 modifiedOn, Nullable`1 modifiedBy) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.Infrastructure\DLL\DoctorRepository.cs:line 184
+  Exception data:
+    Severity: ERROR
+    SqlState: 42883
+    MessageText: procedure core.doctors_actions(text, bigint, text, text, text, text, text, text, text, boolean, unknown, unknown, timestamp with time zone, bigint) does not exist
+    Hint: No procedure matches the given name and argument types. You might need to add explicit type casts.
+    Position: 6
+    File: parse_func.c
+    Line: 627
+    Routine: ParseFuncOrColumn
+2025-02-10 20:05:06,115 [3] ERROR Program (null) - An unhandled exception occurred.
+Npgsql.PostgresException (0x80004005): 42883: procedure core.doctors_actions(text, bigint, text, text, text, text, text, text, text, boolean, unknown, unknown, timestamp with time zone, bigint) does not exist
+
+POSITION: 6
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at Carevance.Infrastructure.DLL.DoctorRepository.UpdateDoctorAsync(Int64 id, String firstName, String lastName, String middleName, String email, String primaryContactNumber, String secondaryContactNumber, String address, Nullable`1 isActive, Nullable`1 modifiedOn, Nullable`1 modifiedBy) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.Infrastructure\DLL\DoctorRepository.cs:line 184
+   at Carevance.Application.Lookup.LookupService.UpdateDoctorAsync(Int64 id, String firstName, String lastName, String middleName, String email, String primaryContactNumber, String secondaryContactNumber, String address, Nullable`1 isActive, Nullable`1 modifiedOn, Nullable`1 modifiedBy) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.Application\Lookup\LookupService.cs:line 312
+   at Carevance.API.Controllers.Lookup.LookupController.UpdateDoctor(Int64 id, Doctor doctor) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.API\Controllers\Lookup\LookupController.cs:line 511
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Carevance.API.Middleware.GlobalExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.API\Middleware\GlobalExceptionMiddleware.cs:line 23
+  Exception data:
+    Severity: ERROR
+    SqlState: 42883
+    MessageText: procedure core.doctors_actions(text, bigint, text, text, text, text, text, text, text, boolean, unknown, unknown, timestamp with time zone, bigint) does not exist
+    Hint: No procedure matches the given name and argument types. You might need to add explicit type casts.
+    Position: 6
+    File: parse_func.c
+    Line: 627
+    Routine: ParseFuncOrColumn
+2025-02-10 20:05:10,055 [3] INFO  Program (null) - Updating doctor.
+2025-02-10 20:05:10,134 [14] ERROR Program (null) - Error updating doctor: 42883: procedure core.doctors_actions(text, bigint, text, text, text, text, text, text, text, boolean, unknown, unknown, timestamp with time zone, bigint) does not exist
+
+POSITION: 6
+Npgsql.PostgresException (0x80004005): 42883: procedure core.doctors_actions(text, bigint, text, text, text, text, text, text, text, boolean, unknown, unknown, timestamp with time zone, bigint) does not exist
+
+POSITION: 6
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at Carevance.Infrastructure.DLL.DoctorRepository.UpdateDoctorAsync(Int64 id, String firstName, String lastName, String middleName, String email, String primaryContactNumber, String secondaryContactNumber, String address, Nullable`1 isActive, Nullable`1 modifiedOn, Nullable`1 modifiedBy) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.Infrastructure\DLL\DoctorRepository.cs:line 184
+  Exception data:
+    Severity: ERROR
+    SqlState: 42883
+    MessageText: procedure core.doctors_actions(text, bigint, text, text, text, text, text, text, text, boolean, unknown, unknown, timestamp with time zone, bigint) does not exist
+    Hint: No procedure matches the given name and argument types. You might need to add explicit type casts.
+    Position: 6
+    File: parse_func.c
+    Line: 627
+    Routine: ParseFuncOrColumn
+2025-02-10 20:05:10,435 [14] ERROR Program (null) - An unhandled exception occurred.
+Npgsql.PostgresException (0x80004005): 42883: procedure core.doctors_actions(text, bigint, text, text, text, text, text, text, text, boolean, unknown, unknown, timestamp with time zone, bigint) does not exist
+
+POSITION: 6
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at Carevance.Infrastructure.DLL.DoctorRepository.UpdateDoctorAsync(Int64 id, String firstName, String lastName, String middleName, String email, String primaryContactNumber, String secondaryContactNumber, String address, Nullable`1 isActive, Nullable`1 modifiedOn, Nullable`1 modifiedBy) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.Infrastructure\DLL\DoctorRepository.cs:line 184
+   at Carevance.Application.Lookup.LookupService.UpdateDoctorAsync(Int64 id, String firstName, String lastName, String middleName, String email, String primaryContactNumber, String secondaryContactNumber, String address, Nullable`1 isActive, Nullable`1 modifiedOn, Nullable`1 modifiedBy) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.Application\Lookup\LookupService.cs:line 312
+   at Carevance.API.Controllers.Lookup.LookupController.UpdateDoctor(Int64 id, Doctor doctor) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.API\Controllers\Lookup\LookupController.cs:line 511
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Carevance.API.Middleware.GlobalExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.API\Middleware\GlobalExceptionMiddleware.cs:line 23
+  Exception data:
+    Severity: ERROR
+    SqlState: 42883
+    MessageText: procedure core.doctors_actions(text, bigint, text, text, text, text, text, text, text, boolean, unknown, unknown, timestamp with time zone, bigint) does not exist
+    Hint: No procedure matches the given name and argument types. You might need to add explicit type casts.
+    Position: 6
+    File: parse_func.c
+    Line: 627
+    Routine: ParseFuncOrColumn
+2025-02-10 20:05:10,602 [14] INFO  Program (null) - Updating doctor.
+2025-02-10 20:05:10,670 [3] ERROR Program (null) - Error updating doctor: 42883: procedure core.doctors_actions(text, bigint, text, text, text, text, text, text, text, boolean, unknown, unknown, timestamp with time zone, bigint) does not exist
+
+POSITION: 6
+Npgsql.PostgresException (0x80004005): 42883: procedure core.doctors_actions(text, bigint, text, text, text, text, text, text, text, boolean, unknown, unknown, timestamp with time zone, bigint) does not exist
+
+POSITION: 6
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at Carevance.Infrastructure.DLL.DoctorRepository.UpdateDoctorAsync(Int64 id, String firstName, String lastName, String middleName, String email, String primaryContactNumber, String secondaryContactNumber, String address, Nullable`1 isActive, Nullable`1 modifiedOn, Nullable`1 modifiedBy) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.Infrastructure\DLL\DoctorRepository.cs:line 184
+  Exception data:
+    Severity: ERROR
+    SqlState: 42883
+    MessageText: procedure core.doctors_actions(text, bigint, text, text, text, text, text, text, text, boolean, unknown, unknown, timestamp with time zone, bigint) does not exist
+    Hint: No procedure matches the given name and argument types. You might need to add explicit type casts.
+    Position: 6
+    File: parse_func.c
+    Line: 627
+    Routine: ParseFuncOrColumn
+2025-02-10 20:05:11,034 [3] ERROR Program (null) - An unhandled exception occurred.
+Npgsql.PostgresException (0x80004005): 42883: procedure core.doctors_actions(text, bigint, text, text, text, text, text, text, text, boolean, unknown, unknown, timestamp with time zone, bigint) does not exist
+
+POSITION: 6
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at Carevance.Infrastructure.DLL.DoctorRepository.UpdateDoctorAsync(Int64 id, String firstName, String lastName, String middleName, String email, String primaryContactNumber, String secondaryContactNumber, String address, Nullable`1 isActive, Nullable`1 modifiedOn, Nullable`1 modifiedBy) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.Infrastructure\DLL\DoctorRepository.cs:line 184
+   at Carevance.Application.Lookup.LookupService.UpdateDoctorAsync(Int64 id, String firstName, String lastName, String middleName, String email, String primaryContactNumber, String secondaryContactNumber, String address, Nullable`1 isActive, Nullable`1 modifiedOn, Nullable`1 modifiedBy) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.Application\Lookup\LookupService.cs:line 312
+   at Carevance.API.Controllers.Lookup.LookupController.UpdateDoctor(Int64 id, Doctor doctor) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.API\Controllers\Lookup\LookupController.cs:line 511
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Carevance.API.Middleware.GlobalExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.API\Middleware\GlobalExceptionMiddleware.cs:line 23
+  Exception data:
+    Severity: ERROR
+    SqlState: 42883
+    MessageText: procedure core.doctors_actions(text, bigint, text, text, text, text, text, text, text, boolean, unknown, unknown, timestamp with time zone, bigint) does not exist
+    Hint: No procedure matches the given name and argument types. You might need to add explicit type casts.
+    Position: 6
+    File: parse_func.c
+    Line: 627
+    Routine: ParseFuncOrColumn
+2025-02-10 20:05:34,093 [3] INFO  Program (null) - Updating doctor.
+2025-02-10 20:07:18,629 [14] ERROR Program (null) - Error updating doctor: 42883: procedure core.doctors_actions(text, bigint, text, text, text, text, text, text, text, boolean, unknown, unknown, timestamp with time zone, bigint) does not exist
+
+POSITION: 6
+Npgsql.PostgresException (0x80004005): 42883: procedure core.doctors_actions(text, bigint, text, text, text, text, text, text, text, boolean, unknown, unknown, timestamp with time zone, bigint) does not exist
+
+POSITION: 6
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at Carevance.Infrastructure.DLL.DoctorRepository.UpdateDoctorAsync(Int64 id, String firstName, String lastName, String middleName, String email, String primaryContactNumber, String secondaryContactNumber, String address, Nullable`1 isActive, Nullable`1 modifiedOn, Nullable`1 modifiedBy) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.Infrastructure\DLL\DoctorRepository.cs:line 184
+  Exception data:
+    Severity: ERROR
+    SqlState: 42883
+    MessageText: procedure core.doctors_actions(text, bigint, text, text, text, text, text, text, text, boolean, unknown, unknown, timestamp with time zone, bigint) does not exist
+    Hint: No procedure matches the given name and argument types. You might need to add explicit type casts.
+    Position: 6
+    File: parse_func.c
+    Line: 627
+    Routine: ParseFuncOrColumn
+2025-02-10 20:07:18,853 [14] ERROR Program (null) - An unhandled exception occurred.
+Npgsql.PostgresException (0x80004005): 42883: procedure core.doctors_actions(text, bigint, text, text, text, text, text, text, text, boolean, unknown, unknown, timestamp with time zone, bigint) does not exist
+
+POSITION: 6
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at Carevance.Infrastructure.DLL.DoctorRepository.UpdateDoctorAsync(Int64 id, String firstName, String lastName, String middleName, String email, String primaryContactNumber, String secondaryContactNumber, String address, Nullable`1 isActive, Nullable`1 modifiedOn, Nullable`1 modifiedBy) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.Infrastructure\DLL\DoctorRepository.cs:line 184
+   at Carevance.Application.Lookup.LookupService.UpdateDoctorAsync(Int64 id, String firstName, String lastName, String middleName, String email, String primaryContactNumber, String secondaryContactNumber, String address, Nullable`1 isActive, Nullable`1 modifiedOn, Nullable`1 modifiedBy) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.Application\Lookup\LookupService.cs:line 312
+   at Carevance.API.Controllers.Lookup.LookupController.UpdateDoctor(Int64 id, Doctor doctor) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.API\Controllers\Lookup\LookupController.cs:line 511
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Carevance.API.Middleware.GlobalExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.API\Middleware\GlobalExceptionMiddleware.cs:line 23
+  Exception data:
+    Severity: ERROR
+    SqlState: 42883
+    MessageText: procedure core.doctors_actions(text, bigint, text, text, text, text, text, text, text, boolean, unknown, unknown, timestamp with time zone, bigint) does not exist
+    Hint: No procedure matches the given name and argument types. You might need to add explicit type casts.
+    Position: 6
+    File: parse_func.c
+    Line: 627
+    Routine: ParseFuncOrColumn
+2025-02-10 20:07:24,438 [22] INFO  Program (null) - Updating doctor.
+2025-02-10 20:07:24,481 [3] ERROR Program (null) - Error updating doctor: 42883: procedure core.doctors_actions(text, bigint, text, text, text, text, text, text, text, boolean, unknown, unknown, timestamp with time zone, bigint) does not exist
+
+POSITION: 6
+Npgsql.PostgresException (0x80004005): 42883: procedure core.doctors_actions(text, bigint, text, text, text, text, text, text, text, boolean, unknown, unknown, timestamp with time zone, bigint) does not exist
+
+POSITION: 6
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at Carevance.Infrastructure.DLL.DoctorRepository.UpdateDoctorAsync(Int64 id, String firstName, String lastName, String middleName, String email, String primaryContactNumber, String secondaryContactNumber, String address, Nullable`1 isActive, Nullable`1 modifiedOn, Nullable`1 modifiedBy) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.Infrastructure\DLL\DoctorRepository.cs:line 184
+  Exception data:
+    Severity: ERROR
+    SqlState: 42883
+    MessageText: procedure core.doctors_actions(text, bigint, text, text, text, text, text, text, text, boolean, unknown, unknown, timestamp with time zone, bigint) does not exist
+    Hint: No procedure matches the given name and argument types. You might need to add explicit type casts.
+    Position: 6
+    File: parse_func.c
+    Line: 627
+    Routine: ParseFuncOrColumn
+2025-02-10 20:07:24,642 [3] ERROR Program (null) - An unhandled exception occurred.
+Npgsql.PostgresException (0x80004005): 42883: procedure core.doctors_actions(text, bigint, text, text, text, text, text, text, text, boolean, unknown, unknown, timestamp with time zone, bigint) does not exist
+
+POSITION: 6
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at Carevance.Infrastructure.DLL.DoctorRepository.UpdateDoctorAsync(Int64 id, String firstName, String lastName, String middleName, String email, String primaryContactNumber, String secondaryContactNumber, String address, Nullable`1 isActive, Nullable`1 modifiedOn, Nullable`1 modifiedBy) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.Infrastructure\DLL\DoctorRepository.cs:line 184
+   at Carevance.Application.Lookup.LookupService.UpdateDoctorAsync(Int64 id, String firstName, String lastName, String middleName, String email, String primaryContactNumber, String secondaryContactNumber, String address, Nullable`1 isActive, Nullable`1 modifiedOn, Nullable`1 modifiedBy) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.Application\Lookup\LookupService.cs:line 312
+   at Carevance.API.Controllers.Lookup.LookupController.UpdateDoctor(Int64 id, Doctor doctor) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.API\Controllers\Lookup\LookupController.cs:line 511
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Carevance.API.Middleware.GlobalExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.API\Middleware\GlobalExceptionMiddleware.cs:line 23
+  Exception data:
+    Severity: ERROR
+    SqlState: 42883
+    MessageText: procedure core.doctors_actions(text, bigint, text, text, text, text, text, text, text, boolean, unknown, unknown, timestamp with time zone, bigint) does not exist
+    Hint: No procedure matches the given name and argument types. You might need to add explicit type casts.
+    Position: 6
+    File: parse_func.c
+    Line: 627
+    Routine: ParseFuncOrColumn
+2025-02-10 20:07:31,499 [14] INFO  Program (null) - Updating doctor.
+2025-02-10 20:10:35,100 [25] ERROR Program (null) - Error updating doctor: 42883: procedure core.doctors_actions(text, bigint, text, text, text, text, text, text, text, boolean, unknown, unknown, timestamp with time zone, bigint) does not exist
+
+POSITION: 6
+Npgsql.PostgresException (0x80004005): 42883: procedure core.doctors_actions(text, bigint, text, text, text, text, text, text, text, boolean, unknown, unknown, timestamp with time zone, bigint) does not exist
+
+POSITION: 6
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at Carevance.Infrastructure.DLL.DoctorRepository.UpdateDoctorAsync(Int64 id, String firstName, String lastName, String middleName, String email, String primaryContactNumber, String secondaryContactNumber, String address, Nullable`1 isActive, Nullable`1 modifiedOn, Nullable`1 modifiedBy)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42883
+    MessageText: procedure core.doctors_actions(text, bigint, text, text, text, text, text, text, text, boolean, unknown, unknown, timestamp with time zone, bigint) does not exist
+    Hint: No procedure matches the given name and argument types. You might need to add explicit type casts.
+    Position: 6
+    File: parse_func.c
+    Line: 627
+    Routine: ParseFuncOrColumn
+2025-02-10 20:10:35,233 [25] ERROR Program (null) - An unhandled exception occurred.
+Npgsql.PostgresException (0x80004005): 42883: procedure core.doctors_actions(text, bigint, text, text, text, text, text, text, text, boolean, unknown, unknown, timestamp with time zone, bigint) does not exist
+
+POSITION: 6
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at Carevance.Infrastructure.DLL.DoctorRepository.UpdateDoctorAsync(Int64 id, String firstName, String lastName, String middleName, String email, String primaryContactNumber, String secondaryContactNumber, String address, Nullable`1 isActive, Nullable`1 modifiedOn, Nullable`1 modifiedBy)
+   at Carevance.Application.Lookup.LookupService.UpdateDoctorAsync(Int64 id, String firstName, String lastName, String middleName, String email, String primaryContactNumber, String secondaryContactNumber, String address, Nullable`1 isActive, Nullable`1 modifiedOn, Nullable`1 modifiedBy) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.Application\Lookup\LookupService.cs:line 312
+   at Carevance.API.Controllers.Lookup.LookupController.UpdateDoctor(Int64 id, Doctor doctor) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.API\Controllers\Lookup\LookupController.cs:line 511
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Carevance.API.Middleware.GlobalExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.API\Middleware\GlobalExceptionMiddleware.cs:line 23
+  Exception data:
+    Severity: ERROR
+    SqlState: 42883
+    MessageText: procedure core.doctors_actions(text, bigint, text, text, text, text, text, text, text, boolean, unknown, unknown, timestamp with time zone, bigint) does not exist
+    Hint: No procedure matches the given name and argument types. You might need to add explicit type casts.
+    Position: 6
+    File: parse_func.c
+    Line: 627
+    Routine: ParseFuncOrColumn
+2025-02-10 20:11:16,010 [17] INFO  Program (null) - Updating doctor.
+2025-02-10 20:12:02,343 [9] ERROR Program (null) - Error updating doctor: 42883: procedure core.doctors_actions(text, bigint, character varying, text, text, text, text, text, text, boolean, timestamp without time zone, bigint, timestamp without time zone, bigint) does not exist
+
+POSITION: 6
+Npgsql.PostgresException (0x80004005): 42883: procedure core.doctors_actions(text, bigint, character varying, text, text, text, text, text, text, boolean, timestamp without time zone, bigint, timestamp without time zone, bigint) does not exist
+
+POSITION: 6
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at Carevance.Infrastructure.DLL.DoctorRepository.UpdateDoctorAsync(Int64 id, String firstName, String lastName, String middleName, String email, String primaryContactNumber, String secondaryContactNumber, String address, Nullable`1 isActive, Nullable`1 modifiedOn, Nullable`1 modifiedBy)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42883
+    MessageText: procedure core.doctors_actions(text, bigint, character varying, text, text, text, text, text, text, boolean, timestamp without time zone, bigint, timestamp without time zone, bigint) does not exist
+    Hint: No procedure matches the given name and argument types. You might need to add explicit type casts.
+    Position: 6
+    File: parse_func.c
+    Line: 627
+    Routine: ParseFuncOrColumn
+2025-02-10 20:12:02,594 [9] ERROR Program (null) - An unhandled exception occurred.
+Npgsql.PostgresException (0x80004005): 42883: procedure core.doctors_actions(text, bigint, character varying, text, text, text, text, text, text, boolean, timestamp without time zone, bigint, timestamp without time zone, bigint) does not exist
+
+POSITION: 6
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at Carevance.Infrastructure.DLL.DoctorRepository.UpdateDoctorAsync(Int64 id, String firstName, String lastName, String middleName, String email, String primaryContactNumber, String secondaryContactNumber, String address, Nullable`1 isActive, Nullable`1 modifiedOn, Nullable`1 modifiedBy)
+   at Carevance.Application.Lookup.LookupService.UpdateDoctorAsync(Int64 id, String firstName, String lastName, String middleName, String email, String primaryContactNumber, String secondaryContactNumber, String address, Nullable`1 isActive, Nullable`1 modifiedOn, Nullable`1 modifiedBy) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.Application\Lookup\LookupService.cs:line 312
+   at Carevance.API.Controllers.Lookup.LookupController.UpdateDoctor(Int64 id, Doctor doctor) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.API\Controllers\Lookup\LookupController.cs:line 511
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Carevance.API.Middleware.GlobalExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.API\Middleware\GlobalExceptionMiddleware.cs:line 23
+  Exception data:
+    Severity: ERROR
+    SqlState: 42883
+    MessageText: procedure core.doctors_actions(text, bigint, character varying, text, text, text, text, text, text, boolean, timestamp without time zone, bigint, timestamp without time zone, bigint) does not exist
+    Hint: No procedure matches the given name and argument types. You might need to add explicit type casts.
+    Position: 6
+    File: parse_func.c
+    Line: 627
+    Routine: ParseFuncOrColumn
+2025-02-10 20:14:32,645 [18] INFO  Program (null) - Updating doctor.
+2025-02-10 20:14:41,459 [20] ERROR Program (null) - Error updating doctor: 42703: column "is_active" does not exist
+
+POSITION: 606
+Npgsql.PostgresException (0x80004005): 42703: column "is_active" does not exist
+
+POSITION: 606
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at Carevance.Infrastructure.DLL.DoctorRepository.UpdateDoctorAsync(Int64 id, String firstName, String lastName, String middleName, String email, String primaryContactNumber, String secondaryContactNumber, String address, Nullable`1 isActive, Nullable`1 modifiedOn, Nullable`1 modifiedBy) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.Infrastructure\DLL\DoctorRepository.cs:line 184
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "is_active" does not exist
+    Position: 606
+    File: parse_relation.c
+    Line: 3721
+    Routine: errorMissingColumn
+2025-02-10 20:14:41,707 [20] ERROR Program (null) - An unhandled exception occurred.
+Npgsql.PostgresException (0x80004005): 42703: column "is_active" does not exist
+
+POSITION: 606
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at Carevance.Infrastructure.DLL.DoctorRepository.UpdateDoctorAsync(Int64 id, String firstName, String lastName, String middleName, String email, String primaryContactNumber, String secondaryContactNumber, String address, Nullable`1 isActive, Nullable`1 modifiedOn, Nullable`1 modifiedBy) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.Infrastructure\DLL\DoctorRepository.cs:line 184
+   at Carevance.Application.Lookup.LookupService.UpdateDoctorAsync(Int64 id, String firstName, String lastName, String middleName, String email, String primaryContactNumber, String secondaryContactNumber, String address, Nullable`1 isActive, Nullable`1 modifiedOn, Nullable`1 modifiedBy) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.Application\Lookup\LookupService.cs:line 312
+   at Carevance.API.Controllers.Lookup.LookupController.UpdateDoctor(Int64 id, Doctor doctor) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.API\Controllers\Lookup\LookupController.cs:line 511
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Carevance.API.Middleware.GlobalExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.API\Middleware\GlobalExceptionMiddleware.cs:line 23
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "is_active" does not exist
+    Position: 606
+    File: parse_relation.c
+    Line: 3721
+    Routine: errorMissingColumn
+2025-02-10 20:15:26,782 [14] INFO  Program (null) - Updating doctor.
+2025-02-10 20:15:36,064 [14] ERROR Program (null) - Error updating doctor: 42883: procedure core.doctors_actions(text, bigint, character varying, text, text, text, text, text, text, boolean, timestamp without time zone, bigint, timestamp without time zone, bigint) does not exist
+
+POSITION: 6
+Npgsql.PostgresException (0x80004005): 42883: procedure core.doctors_actions(text, bigint, character varying, text, text, text, text, text, text, boolean, timestamp without time zone, bigint, timestamp without time zone, bigint) does not exist
+
+POSITION: 6
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at Carevance.Infrastructure.DLL.DoctorRepository.UpdateDoctorAsync(Int64 id, String firstName, String lastName, String middleName, String email, String primaryContactNumber, String secondaryContactNumber, String address, Nullable`1 isActive, Nullable`1 modifiedOn, Nullable`1 modifiedBy) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.Infrastructure\DLL\DoctorRepository.cs:line 184
+  Exception data:
+    Severity: ERROR
+    SqlState: 42883
+    MessageText: procedure core.doctors_actions(text, bigint, character varying, text, text, text, text, text, text, boolean, timestamp without time zone, bigint, timestamp without time zone, bigint) does not exist
+    Hint: No procedure matches the given name and argument types. You might need to add explicit type casts.
+    Position: 6
+    File: parse_func.c
+    Line: 627
+    Routine: ParseFuncOrColumn
+2025-02-10 20:15:36,250 [14] ERROR Program (null) - An unhandled exception occurred.
+Npgsql.PostgresException (0x80004005): 42883: procedure core.doctors_actions(text, bigint, character varying, text, text, text, text, text, text, boolean, timestamp without time zone, bigint, timestamp without time zone, bigint) does not exist
+
+POSITION: 6
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at Carevance.Infrastructure.DLL.DoctorRepository.UpdateDoctorAsync(Int64 id, String firstName, String lastName, String middleName, String email, String primaryContactNumber, String secondaryContactNumber, String address, Nullable`1 isActive, Nullable`1 modifiedOn, Nullable`1 modifiedBy) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.Infrastructure\DLL\DoctorRepository.cs:line 184
+   at Carevance.Application.Lookup.LookupService.UpdateDoctorAsync(Int64 id, String firstName, String lastName, String middleName, String email, String primaryContactNumber, String secondaryContactNumber, String address, Nullable`1 isActive, Nullable`1 modifiedOn, Nullable`1 modifiedBy) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.Application\Lookup\LookupService.cs:line 312
+   at Carevance.API.Controllers.Lookup.LookupController.UpdateDoctor(Int64 id, Doctor doctor) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.API\Controllers\Lookup\LookupController.cs:line 511
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Carevance.API.Middleware.GlobalExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.API\Middleware\GlobalExceptionMiddleware.cs:line 23
+  Exception data:
+    Severity: ERROR
+    SqlState: 42883
+    MessageText: procedure core.doctors_actions(text, bigint, character varying, text, text, text, text, text, text, boolean, timestamp without time zone, bigint, timestamp without time zone, bigint) does not exist
+    Hint: No procedure matches the given name and argument types. You might need to add explicit type casts.
+    Position: 6
+    File: parse_func.c
+    Line: 627
+    Routine: ParseFuncOrColumn
+2025-02-10 20:20:20,552 [14] INFO  Program (null) - Updating doctor.
+2025-02-10 20:20:20,603 [20] ERROR Program (null) - Error updating doctor: 42703: column "is_active" does not exist
+
+POSITION: 606
+Npgsql.PostgresException (0x80004005): 42703: column "is_active" does not exist
+
+POSITION: 606
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at Carevance.Infrastructure.DLL.DoctorRepository.UpdateDoctorAsync(Int64 id, String firstName, String lastName, String middleName, String email, String primaryContactNumber, String secondaryContactNumber, String address, Nullable`1 isActive, Nullable`1 modifiedOn, Nullable`1 modifiedBy)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "is_active" does not exist
+    Position: 606
+    File: parse_relation.c
+    Line: 3721
+    Routine: errorMissingColumn
+2025-02-10 20:20:20,774 [20] ERROR Program (null) - An unhandled exception occurred.
+Npgsql.PostgresException (0x80004005): 42703: column "is_active" does not exist
+
+POSITION: 606
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at Carevance.Infrastructure.DLL.DoctorRepository.UpdateDoctorAsync(Int64 id, String firstName, String lastName, String middleName, String email, String primaryContactNumber, String secondaryContactNumber, String address, Nullable`1 isActive, Nullable`1 modifiedOn, Nullable`1 modifiedBy)
+   at Carevance.Application.Lookup.LookupService.UpdateDoctorAsync(Int64 id, String firstName, String lastName, String middleName, String email, String primaryContactNumber, String secondaryContactNumber, String address, Nullable`1 isActive, Nullable`1 modifiedOn, Nullable`1 modifiedBy) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.Application\Lookup\LookupService.cs:line 312
+   at Carevance.API.Controllers.Lookup.LookupController.UpdateDoctor(Int64 id, Doctor doctor) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.API\Controllers\Lookup\LookupController.cs:line 511
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Carevance.API.Middleware.GlobalExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.API\Middleware\GlobalExceptionMiddleware.cs:line 23
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "is_active" does not exist
+    Position: 606
+    File: parse_relation.c
+    Line: 3721
+    Routine: errorMissingColumn
+2025-02-10 20:20:34,159 [20] INFO  Program (null) - Updating doctor.
+2025-02-10 20:20:39,927 [14] ERROR Program (null) - Error updating doctor: 42703: column "is_active" does not exist
+
+POSITION: 606
+Npgsql.PostgresException (0x80004005): 42703: column "is_active" does not exist
+
+POSITION: 606
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at Carevance.Infrastructure.DLL.DoctorRepository.UpdateDoctorAsync(Int64 id, String firstName, String lastName, String middleName, String email, String primaryContactNumber, String secondaryContactNumber, String address, Nullable`1 isActive, Nullable`1 modifiedOn, Nullable`1 modifiedBy)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "is_active" does not exist
+    Position: 606
+    File: parse_relation.c
+    Line: 3721
+    Routine: errorMissingColumn
+2025-02-10 20:20:40,142 [14] ERROR Program (null) - An unhandled exception occurred.
+Npgsql.PostgresException (0x80004005): 42703: column "is_active" does not exist
+
+POSITION: 606
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at Carevance.Infrastructure.DLL.DoctorRepository.UpdateDoctorAsync(Int64 id, String firstName, String lastName, String middleName, String email, String primaryContactNumber, String secondaryContactNumber, String address, Nullable`1 isActive, Nullable`1 modifiedOn, Nullable`1 modifiedBy)
+   at Carevance.Application.Lookup.LookupService.UpdateDoctorAsync(Int64 id, String firstName, String lastName, String middleName, String email, String primaryContactNumber, String secondaryContactNumber, String address, Nullable`1 isActive, Nullable`1 modifiedOn, Nullable`1 modifiedBy) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.Application\Lookup\LookupService.cs:line 312
+   at Carevance.API.Controllers.Lookup.LookupController.UpdateDoctor(Int64 id, Doctor doctor) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.API\Controllers\Lookup\LookupController.cs:line 511
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Carevance.API.Middleware.GlobalExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.API\Middleware\GlobalExceptionMiddleware.cs:line 23
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "is_active" does not exist
+    Position: 606
+    File: parse_relation.c
+    Line: 3721
+    Routine: errorMissingColumn
+2025-02-10 20:21:32,725 [22] INFO  Program (null) - Updating doctor.
+2025-02-10 20:21:38,552 [3] ERROR Program (null) - Error updating doctor: 42703: column "is_active" does not exist
+
+POSITION: 606
+Npgsql.PostgresException (0x80004005): 42703: column "is_active" does not exist
+
+POSITION: 606
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at Carevance.Infrastructure.DLL.DoctorRepository.UpdateDoctorAsync(Int64 id, String firstName, String lastName, String middleName, String email, String primaryContactNumber, String secondaryContactNumber, String address, Nullable`1 isActive, Nullable`1 modifiedOn, Nullable`1 modifiedBy)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "is_active" does not exist
+    Position: 606
+    File: parse_relation.c
+    Line: 3721
+    Routine: errorMissingColumn
+2025-02-10 20:21:38,735 [3] ERROR Program (null) - An unhandled exception occurred.
+Npgsql.PostgresException (0x80004005): 42703: column "is_active" does not exist
+
+POSITION: 606
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at Carevance.Infrastructure.DLL.DoctorRepository.UpdateDoctorAsync(Int64 id, String firstName, String lastName, String middleName, String email, String primaryContactNumber, String secondaryContactNumber, String address, Nullable`1 isActive, Nullable`1 modifiedOn, Nullable`1 modifiedBy)
+   at Carevance.Application.Lookup.LookupService.UpdateDoctorAsync(Int64 id, String firstName, String lastName, String middleName, String email, String primaryContactNumber, String secondaryContactNumber, String address, Nullable`1 isActive, Nullable`1 modifiedOn, Nullable`1 modifiedBy) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.Application\Lookup\LookupService.cs:line 312
+   at Carevance.API.Controllers.Lookup.LookupController.UpdateDoctor(Int64 id, Doctor doctor) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.API\Controllers\Lookup\LookupController.cs:line 511
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Carevance.API.Middleware.GlobalExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.API\Middleware\GlobalExceptionMiddleware.cs:line 23
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "is_active" does not exist
+    Position: 606
+    File: parse_relation.c
+    Line: 3721
+    Routine: errorMissingColumn
+2025-02-10 20:26:42,822 [20] INFO  Program (null) - Updating doctor.
+2025-02-10 20:26:47,972 [23] ERROR Program (null) - Error updating doctor: 42703: column "is_active" does not exist
+
+POSITION: 606
+Npgsql.PostgresException (0x80004005): 42703: column "is_active" does not exist
+
+POSITION: 606
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at Carevance.Infrastructure.DLL.DoctorRepository.UpdateDoctorAsync(Int64 id, String firstName, String lastName, String middleName, String email, String primaryContactNumber, String secondaryContactNumber, String address, Nullable`1 isActive, Nullable`1 modifiedOn, Nullable`1 modifiedBy) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.Infrastructure\DLL\DoctorRepository.cs:line 184
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "is_active" does not exist
+    Position: 606
+    File: parse_relation.c
+    Line: 3721
+    Routine: errorMissingColumn
+2025-02-10 20:26:48,196 [23] ERROR Program (null) - An unhandled exception occurred.
+Npgsql.PostgresException (0x80004005): 42703: column "is_active" does not exist
+
+POSITION: 606
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at Carevance.Infrastructure.DLL.DoctorRepository.UpdateDoctorAsync(Int64 id, String firstName, String lastName, String middleName, String email, String primaryContactNumber, String secondaryContactNumber, String address, Nullable`1 isActive, Nullable`1 modifiedOn, Nullable`1 modifiedBy) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.Infrastructure\DLL\DoctorRepository.cs:line 184
+   at Carevance.Application.Lookup.LookupService.UpdateDoctorAsync(Int64 id, String firstName, String lastName, String middleName, String email, String primaryContactNumber, String secondaryContactNumber, String address, Nullable`1 isActive, Nullable`1 modifiedOn, Nullable`1 modifiedBy) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.Application\Lookup\LookupService.cs:line 312
+   at Carevance.API.Controllers.Lookup.LookupController.UpdateDoctor(Int64 id, Doctor doctor) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.API\Controllers\Lookup\LookupController.cs:line 511
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Carevance.API.Middleware.GlobalExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.API\Middleware\GlobalExceptionMiddleware.cs:line 23
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "is_active" does not exist
+    Position: 606
+    File: parse_relation.c
+    Line: 3721
+    Routine: errorMissingColumn
+2025-02-10 20:29:22,196 [7] INFO  Program (null) - Updating doctor.
+2025-02-10 20:31:31,055 [7] ERROR Program (null) - Error updating doctor: 42703: column "is_active" does not exist
+
+POSITION: 606
+Npgsql.PostgresException (0x80004005): 42703: column "is_active" does not exist
+
+POSITION: 606
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at Carevance.Infrastructure.DLL.DoctorRepository.UpdateDoctorAsync(Int64 id, String firstName, String lastName, String middleName, String email, String primaryContactNumber, String secondaryContactNumber, String address, Nullable`1 isActive, Nullable`1 modifiedOn, Nullable`1 modifiedBy)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "is_active" does not exist
+    Position: 606
+    File: parse_relation.c
+    Line: 3721
+    Routine: errorMissingColumn
+2025-02-10 20:31:31,246 [7] ERROR Program (null) - An unhandled exception occurred.
+Npgsql.PostgresException (0x80004005): 42703: column "is_active" does not exist
+
+POSITION: 606
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at Carevance.Infrastructure.DLL.DoctorRepository.UpdateDoctorAsync(Int64 id, String firstName, String lastName, String middleName, String email, String primaryContactNumber, String secondaryContactNumber, String address, Nullable`1 isActive, Nullable`1 modifiedOn, Nullable`1 modifiedBy)
+   at Carevance.Application.Lookup.LookupService.UpdateDoctorAsync(Int64 id, String firstName, String lastName, String middleName, String email, String primaryContactNumber, String secondaryContactNumber, String address, Nullable`1 isActive, Nullable`1 modifiedOn, Nullable`1 modifiedBy) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.Application\Lookup\LookupService.cs:line 312
+   at Carevance.API.Controllers.Lookup.LookupController.UpdateDoctor(Int64 id, Doctor doctor) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.API\Controllers\Lookup\LookupController.cs:line 511
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Carevance.API.Middleware.GlobalExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.API\Middleware\GlobalExceptionMiddleware.cs:line 23
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "is_active" does not exist
+    Position: 606
+    File: parse_relation.c
+    Line: 3721
+    Routine: errorMissingColumn
+2025-02-10 20:32:07,967 [9] INFO  Program (null) - Updating doctor.
+2025-02-10 20:32:13,820 [9] INFO  Program (null) - Doctor Updated Successfully
+2025-02-10 20:32:46,279 [9] INFO  Program (null) - Deleting doctor.
+2025-02-10 20:32:46,301 [15] INFO  Program (null) - Doctor Deleted Successfully.
+2025-02-10 20:55:52,244 [15] ERROR Program (null) - An unhandled exception occurred.
+System.InvalidOperationException: Unable to resolve service for type 'Carevance.Application.Doctor.Interfaces.IDoctorService' while attempting to activate 'Carevance.API.Controllers.Doctor.DoctorController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Carevance.API.Middleware.GlobalExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.API\Middleware\GlobalExceptionMiddleware.cs:line 23
+2025-02-10 20:56:25,213 [13] ERROR Program (null) - An unhandled exception occurred.
+System.InvalidOperationException: Unable to resolve service for type 'Carevance.Application.Doctor.Interfaces.IDoctorService' while attempting to activate 'Carevance.API.Controllers.Doctor.DoctorController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Carevance.API.Middleware.GlobalExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\DELL\source\repos\CarevanceV2\Carevance.API\Middleware\GlobalExceptionMiddleware.cs:line 23
+2025-02-10 20:59:21,083 [7] INFO  Program (null) - Inserting doctor.
+2025-02-10 20:59:27,311 [7] INFO  Program (null) - Doctor Inserted Successfully
+2025-02-10 20:59:50,648 [7] INFO  Program (null) - Updating doctor.
+2025-02-10 20:59:50,679 [14] INFO  Program (null) - Doctor Updated Successfully
+2025-02-10 21:08:07,154 [15] INFO  Program (null) - Retrieving Doctors.
+2025-02-10 21:10:16,453 [14] INFO  Program (null) - Retrieving Doctors.
+2025-02-10 21:44:33,246 [13] INFO  Program (null) - Retrieving Doctors.
+2025-02-10 21:51:22,520 [22] INFO  Program (null) - Retrieving Doctors.
+2025-02-10 21:54:16,196 [29] INFO  Program (null) - Retrieving Doctors.
+2025-02-10 21:59:35,537 [24] INFO  Program (null) - Retrieving Doctors.
+2025-02-10 22:00:01,179 [24] INFO  Program (null) - Retrieving Doctors.
+2025-02-10 22:00:14,095 [23] INFO  Program (null) - Retrieving Doctors.
+2025-02-10 22:00:42,718 [25] INFO  Program (null) - Retrieving Doctors.
+2025-02-10 22:01:00,981 [17] INFO  Program (null) - Retrieving Doctors.
+2025-02-10 22:01:21,835 [25] INFO  Program (null) - Retrieving Doctors.
+2025-02-10 22:01:41,117 [28] INFO  Program (null) - Retrieving Doctors.
+2025-02-10 22:02:00,811 [24] INFO  Program (null) - Retrieving Doctors.
+2025-02-10 22:02:17,584 [17] INFO  Program (null) - Retrieving Doctors.
+2025-02-10 22:02:48,104 [28] INFO  Program (null) - Retrieving Doctors.
+2025-02-10 22:03:16,486 [17] INFO  Program (null) - Retrieving Doctors.

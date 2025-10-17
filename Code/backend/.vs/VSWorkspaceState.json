@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\BusTracking.API",
+    "\\BusTracking.API\\Controllers",
+    "\\BusTracking.API\\Controllers\\Authentication"
+  ],
+  "SelectedNode": "\\BusTracking.API\\Controllers\\Authentication\\AuthController.cs",
+  "PreviewInSolutionExplorer": false
+}
